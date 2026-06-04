@@ -1,6 +1,6 @@
 match,date,group,team_a,team_b,venue,predicted_winner,loser,prob_a,prob_b,win_prob,confidence
 1,Jun 12,B,England,Sri Lanka,"Edgbaston, Birmingham",England,Sri Lanka,0.687,0.313,0.687,MED
-2,Jun 13,A,Scotland,Ireland,"Old Trafford, Manchester",Ireland,Scotland,0.106,0.894,0.894,HIGH
+2,Jun 13,B,Scotland,Ireland,"Old Trafford, Manchester",Ireland,Scotland,0.106,0.894,0.894,HIGH
 3,Jun 13,A,Australia,South Africa,"Old Trafford, Manchester",Australia,South Africa,0.849,0.151,0.849,HIGH
 4,Jun 13,B,West Indies,New Zealand,"Rose Bowl, Southampton",New Zealand,West Indies,0.101,0.899,0.899,HIGH
 5,Jun 14,A,Bangladesh,Netherlands,"Edgbaston, Birmingham",Bangladesh,Netherlands,0.796,0.204,0.796,HIGH

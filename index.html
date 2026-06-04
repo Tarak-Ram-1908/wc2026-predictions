@@ -259,7 +259,7 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:3rem cla
 <!-- GITHUB BANNER -->
 <div class="gh-banner" style="margin-top:56px">
   <p>Full source code available on GitHub — model training, feature engineering & prediction scripts</p>
-  <a href="https://github.com" class="gh-link" id="ghLink">
+  <a href="https://github.com/Tarak-Ram-1908/wc2026-predictions" class="gh-link" id="ghLink">
     <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
     View on GitHub
   </a>
@@ -431,7 +431,7 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:3rem cla
     <div class="group-card">
       <div class="group-header">
         <div class="group-label a">Group A</div>
-        <p>Edgbaston · Old Trafford · Headingley · Bristol · Lord's</p>
+        <p>Edgbaston · Old Trafford · Headingley · Rose Bowl · Bristol · Lord's</p>
       </div>
       <table class="group-table">
         <thead><tr><th>#</th><th>Team</th><th>Pts</th><th></th></tr></thead>
@@ -441,7 +441,7 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:3rem cla
     <div class="group-card">
       <div class="group-header">
         <div class="group-label b">Group B</div>
-        <p>Rose Bowl · Headingley · Bristol · Old Trafford · The Oval · Lord's</p>
+        <p>Edgbaston · Rose Bowl · Headingley · Bristol · Old Trafford · The Oval · Lord's</p>
       </div>
       <table class="group-table">
         <thead><tr><th>#</th><th>Team</th><th>Pts</th><th></th></tr></thead>
@@ -455,10 +455,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:3rem cla
 
 <!-- MATCHES -->
 <section id="matches">
-  <div class="section-label reveal">All 30 Group Stage Matches</div>
+  <div class="section-label reveal">Group Stage — All 30 Matches</div>
   <div class="section-title reveal">Group stage<br>predictions</div>
+  <p style="font-size:12px;color:var(--muted);margin-bottom:1rem">30 group stage matches shown here. 3 knockout matches (SF1, SF2, Final) are shown in the Bracket section — 33 total predicted.</p>
   <p class="section-sub reveal">Win probabilities for every group stage match. Filter by group or confidence level.</p>
 
+  <p style="font-size:12px;color:var(--muted);margin-bottom:1rem">Confidence bands: <strong style="color:var(--win)">HIGH</strong> = win prob ≥75% · <strong style="color:var(--gold)">MED</strong> = 60–75% · <strong style="color:var(--lose)">LOW</strong> = &lt;60% (close call)</p>
   <div class="filter-bar reveal">
     <button class="filter-btn active" onclick="filterMatches('all',this)">All</button>
     <button class="filter-btn" onclick="filterMatches('A',this)">Group A</button>
@@ -505,7 +507,7 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:3rem cla
               <span class="bracket-team-prob w">87.5%</span>
             </div>
             <div class="bracket-team">
-              <span class="bracket-team-name">India</span>
+              <span class="bracket-team-name">South Africa</span>
               <span class="bracket-team-prob">12.5%</span>
             </div>
           </div>
@@ -700,7 +702,7 @@ const MATCHES = [
   {match:30,date:'Jun 28',group:'A',team_a:'Australia',team_b:'India',venue:"Lord's",winner:'Australia',prob_a:0.83,prob_b:0.17,confidence:'HIGH'},
 ];
 
-const GROUP_A = {Australia:10,India:6,'South Africa':6,Pakistan:4,Bangladesh:4,Netherlands:0};
+const GROUP_A = {'Australia':10,'South Africa':6,'India':6,'Pakistan':4,'Bangladesh':4,'Netherlands':0};
 const GROUP_B = {England:10,'New Zealand':8,'West Indies':6,'Sri Lanka':4,Ireland:2,Scotland:0};
 
 const H2H = {
@@ -740,7 +742,7 @@ function renderFeats(){
 }
 
 // ── RENDER VALIDATION DOTS ───────────────────────────────────
-const val22 = [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1];
+const val22 = [0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1];
 const val24 = [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1];
 function renderDots(arr,id){
   document.getElementById(id).innerHTML = arr.map(c =>
@@ -855,7 +857,8 @@ function renderTeamStats(teamName){
 // ── RENDER H2H MATRIX ────────────────────────────────────────
 function renderH2H(){
   const {teams,data} = H2H;
-  let html = '<tr><th></th>' + teams.map(t=>`<th style="font-size:10px">${t.split(' ')[0]}</th>`).join('') + '</tr>';
+  const abbrev = {'Australia':'AUS','India':'IND','England':'ENG','New Zealand':'NZ','South Africa':'SA','West Indies':'WI','Pakistan':'PAK','Sri Lanka':'SL','Bangladesh':'BAN','Ireland':'IRE','Scotland':'SCO','Netherlands':'NED'};
+  let html = '<tr><th></th>' + teams.map(t=>`<th style="font-size:10px" title="${t}">${abbrev[t]||t.split(' ')[0]}</th>`).join('') + '</tr>';
   data.forEach((row,i)=>{
     html += `<tr><th style="text-align:left">${FLAGS[teams[i]]||''} ${teams[i]}</th>`;
     row.forEach((v,j)=>{
