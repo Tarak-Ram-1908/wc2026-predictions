@@ -543,7 +543,7 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:3rem cla
       <!-- Champion -->
       <div class="bracket-col" style="align-items:center">
         <div class="champion-box">
-          <div class="champion-label">🏆 Predicted Champion</div>
+          <div class="champion-label">Predicted Champion</div>
           <div class="champion-team">Australia</div>
           <div class="champion-date">Lord's · Jul 5, 2026</div>
           <div class="champion-prob">79.4% win prob</div>
@@ -724,9 +724,9 @@ const H2H = {
 };
 
 const FLAGS = {
-  'Australia':'🇦🇺','India':'🇮🇳','England':'🏴󠁧󠁢󠁥󠁮󠁧󠁿','New Zealand':'🇳🇿',
-  'South Africa':'🇿🇦','West Indies':'🏏','Pakistan':'🇵🇰','Sri Lanka':'🇱🇰',
-  'Bangladesh':'🇧🇩','Ireland':'🇮🇪','Scotland':'🏴󠁧󠁢󠁳󠁣󠁴󠁿','Netherlands':'🇳🇱'
+  'Australia':'','India':'','England':'','New Zealand':'',
+  'South Africa':'','West Indies':'','Pakistan':'','Sri Lanka':'',
+  'Bangladesh':'','Ireland':'','Scotland':'','Netherlands':''
 };
 
 // ── RENDER FEATURE BARS ──────────────────────────────────────
@@ -779,7 +779,7 @@ function renderMatches(filter='all'){
         <div class="match-grp">GRP ${m.group}</div>
       </div>
       <div class="match-teams">
-        <div class="match-venue">📍 ${m.venue}</div>
+        <div class="match-venue">${m.venue}</div>
         <div class="match-matchup">
           <span class="team-name ${wa?'winner':'loser'}">${FLAGS[m.team_a]||''} ${m.team_a}</span>
           <span class="vs">vs</span>
@@ -839,14 +839,14 @@ function renderTeamStats(teamName){
     </div>`;
   document.getElementById('teamStats').innerHTML = `
     <div class="radar-card">
-      <div class="radar-title">🏏 Batting <span>${teamName}</span></div>
+      <div class="radar-title"> Batting <span>${teamName}</span></div>
       ${bar(s.bat_pp,'Powerplay','#4fc3f7')}
       ${bar(s.bat_mid,'Middle overs','#81d4fa')}
       ${bar(s.bat_death,'Death overs','#b3e5fc')}
       ${bar(s.chase_skill,'Chase skill','#c8ff00')}
     </div>
     <div class="radar-card">
-      <div class="radar-title">🎯 Bowling <span>${teamName}</span></div>
+      <div class="radar-title">Bowling — <span>${teamName}</span></div>
       ${bar(s.bowl_pp,'Powerplay','#ff6b35')}
       ${bar(s.bowl_mid,'Middle overs','#ff8c61')}
       ${bar(s.bowl_death,'Death overs','#ffb299')}
