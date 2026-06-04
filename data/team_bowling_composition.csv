@@ -1,0 +1,13 @@
+team,fast_bowlers,spin_bowlers,primary_pace_type,primary_spin_type,has_LA_pace,has_RA_offbreak,has_LA_orthodox,has_RA_legbreak,notes,rhb_count,lhb_count,rhb_pct
+Australia,4,3,RA_pace,LA_orthodox,True,False,True,True,"Darcie Brown (LA pace), Sophie Molineux (LA orthodox), Alana King (RA legbreak)",7,4,0.64
+India,3,4,RA_pace,LA_orthodox,False,True,True,False,"Deepti Sharma (RA offbreak), Radha Yadav (LA orthodox), Pooja Vastrakar (RA pace)",8,3,0.73
+England,4,3,RA_pace,LA_orthodox,True,True,True,False,"Katherine Sciver-Brunt (RA pace), Sophie Ecclestone (LA orthodox), Nat Sciver-Brunt (RA pace)",6,5,0.55
+New Zealand,4,3,RA_pace,LA_orthodox,False,True,True,False,"Lea Tahuhu (RA pace), Fran Jonas (LA orthodox), Suzie Bates (RA offbreak)",7,4,0.64
+South Africa,4,3,RA_pace,RA_offbreak,True,True,False,False,"Shabnim Ismail (RA pace), Marizanne Kapp (RA pace), Nonkululeko Mlaba (LA pace)",8,3,0.73
+West Indies,3,4,RA_pace,LA_orthodox,False,True,True,False,"Karishma Ramharack (RA offbreak), Afy Fletcher (LA orthodox)",7,4,0.64
+Pakistan,3,4,RA_pace,LA_orthodox,False,True,True,False,"Nida Dar (RA offbreak), Sadia Iqbal (LA orthodox)",9,2,0.82
+Sri Lanka,3,5,RA_pace,RA_offbreak,False,True,True,False,"Inoka Ranaweera (LA orthodox), Oshadi Ranasinghe (RA offbreak)",9,2,0.82
+Bangladesh,3,4,RA_pace,LA_orthodox,False,True,True,False,"Salma Khatun (RA offbreak), Nahida Akter (RA offbreak)",9,2,0.82
+Ireland,4,3,RA_pace,RA_offbreak,True,True,False,False,"Orla Prendergast (RA pace), Lara Maritz (LA pace)",7,4,0.64
+Scotland,4,3,RA_pace,RA_offbreak,False,True,False,False,"Priyanaz Chatterji (RA offbreak), Sarah Bryce (RA pace)",8,3,0.73
+Netherlands,4,3,RA_pace,RA_offbreak,False,True,False,False,"Frederique Overdijk (RA pace), Eva van Dongen (RA pace)",8,3,0.73

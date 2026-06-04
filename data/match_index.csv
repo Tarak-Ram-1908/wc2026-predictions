@@ -1,0 +1,691 @@
+match_id,team1,team2,winner,toss_winner,toss_decision,bat_first,venue,date,event,is_val_2022,is_val_2024
+355988,India,New Zealand,New Zealand,New Zealand,bat,New Zealand,Trent Bridge,2009-06-18,ICC Women's World Twenty20,False,False
+355989,England,Australia,England,England,field,Australia,Kennington Oval,2009-06-19,ICC Women's World Twenty20,False,False
+391794,England,Australia,Australia,Australia,bat,Australia,County Ground,2009-06-25,,False,False
+423391,South Africa,West Indies,West Indies,South Africa,field,West Indies,Boland Bank Park,2009-10-28,West Indies Women in South Africa T20I Series,False,False
+412716,Australia,India,Australia,India,bat,India,"""Beausejour Stadium, Gros Islet""",2010-05-13,ICC Women's World Twenty20,False,False
+412717,West Indies,New Zealand,New Zealand,West Indies,field,New Zealand,"""Beausejour Stadium, Gros Islet""",2010-05-14,ICC Women's World Twenty20,False,False
+412718,Australia,New Zealand,Australia,Australia,bat,Australia,"""Kensington Oval, Bridgetown""",2010-05-16,ICC Women's World Twenty20,False,False
+476947,New Zealand,Australia,Australia,New Zealand,bat,New Zealand,Saxton Oval,2010-12-30,Rose Bowl,False,False
+492547,England,India,England,England,bat,England,County Ground,2011-06-26,NatWest Women's T20 Quadrangular Series,False,False
+527688,New Zealand,England,England,England,field,New Zealand,Westpac Stadium,2012-02-17,England Women in New Zealand T20I Series,False,False
+527689,New Zealand,England,England,New Zealand,field,England,Seddon Park,2012-02-19,England Women in New Zealand T20I Series,False,False
+527690,New Zealand,England,England,New Zealand,field,England,Eden Park,2012-02-22,England Women in New Zealand T20I Series,False,False
+542850,England,India,England,India,field,England,St Lawrence Ground,2012-06-26,India Women in England T20I Series,False,False
+542851,England,India,England,India,bat,India,County Ground,2012-06-28,India Women in England T20I Series,False,False
+565844,England,Pakistan,England,Pakistan,bat,Pakistan,Haslegrave Ground,2012-09-04,Pakistan Women in England T20I Series,False,False
+565845,England,Pakistan,England,England,bat,England,Haslegrave Ground,2012-09-05,Pakistan Women in England T20I Series,False,False
+551593,England,West Indies,England,West Indies,bat,West Indies,Riverside Ground,2012-09-08,West Indies Women in England T20I Series,False,False
+551594,England,West Indies,England,West Indies,field,England,Old Trafford,2012-09-10,West Indies Women in England T20I Series,False,False
+551595,England,West Indies,England,England,bat,England,County Ground,2012-09-13,West Indies Women in England T20I Series,False,False
+551596,England,West Indies,England,England,bat,England,County Ground,2012-09-15,West Indies Women in England T20I Series,False,False
+551597,England,West Indies,West Indies,West Indies,field,England,Arundel Castle Cricket Club Ground,2012-09-16,West Indies Women in England T20I Series,False,False
+533300,New Zealand,West Indies,West Indies,West Indies,field,New Zealand,Galle International Stadium,2012-09-26,ICC Women's World Twenty20,False,False
+533299,Sri Lanka,South Africa,South Africa,South Africa,field,Sri Lanka,Galle International Stadium,2012-09-26,ICC Women's World Twenty20,False,False
+533302,Australia,India,Australia,India,bat,India,Galle International Stadium,2012-09-27,ICC Women's World Twenty20,False,False
+533301,England,Pakistan,England,Pakistan,field,England,Galle International Stadium,2012-09-27,ICC Women's World Twenty20,False,False
+533303,New Zealand,South Africa,New Zealand,South Africa,field,New Zealand,Galle International Stadium,2012-09-28,ICC Women's World Twenty20,False,False
+533304,Sri Lanka,West Indies,Sri Lanka,West Indies,field,Sri Lanka,Galle International Stadium,2012-09-28,ICC Women's World Twenty20,False,False
+533306,England,India,England,India,bat,India,Galle International Stadium,2012-09-29,ICC Women's World Twenty20,False,False
+533305,Australia,Pakistan,Australia,Australia,bat,Australia,Galle International Stadium,2012-09-29,ICC Women's World Twenty20,False,False
+533307,South Africa,West Indies,West Indies,West Indies,field,South Africa,Galle International Stadium,2012-09-30,ICC Women's World Twenty20,False,False
+533308,Sri Lanka,New Zealand,New Zealand,Sri Lanka,bat,Sri Lanka,Galle International Stadium,2012-09-30,ICC Women's World Twenty20,False,False
+533309,India,Pakistan,Pakistan,Pakistan,bat,Pakistan,Galle International Stadium,2012-10-01,ICC Women's World Twenty20,False,False
+533310,Australia,England,England,Australia,bat,Australia,Galle International Stadium,2012-10-01,ICC Women's World Twenty20,False,False
+584772,Sri Lanka,India,India,Sri Lanka,bat,Sri Lanka,Nondescripts Cricket Club Ground,2012-10-03,ICC Women's World Twenty20,False,False
+533311,England,New Zealand,England,England,field,New Zealand,R Premadasa Stadium,2012-10-04,ICC Women's World Twenty20,False,False
+533312,Australia,West Indies,Australia,Australia,bat,Australia,R Premadasa Stadium,2012-10-05,ICC Women's World Twenty20,False,False
+533313,Australia,England,Australia,England,field,Australia,R Premadasa Stadium,2012-10-07,ICC Women's World Twenty20,False,False
+584924,India,Pakistan,India,Pakistan,bat,Pakistan,Guanggong International Cricket Stadium,2012-10-28,Asian Cricket Council Women's Twenty20 Asia Cup,False,False
+584923,Bangladesh,Sri Lanka,Bangladesh,Sri Lanka,field,Bangladesh,Guanggong International Cricket Stadium,2012-10-28,Asian Cricket Council Women's Twenty20 Asia Cup,False,False
+584928,Bangladesh,Pakistan,Pakistan,Pakistan,field,Bangladesh,Guanggong International Cricket Stadium,2012-10-30,Asian Cricket Council Women's Twenty20 Asia Cup,False,False
+584929,India,Pakistan,India,India,bat,India,Guanggong International Cricket Stadium,2012-10-31,Asian Cricket Council Women's Twenty20 Asia Cup,False,False
+588498,West Indies,South Africa,West Indies,South Africa,bat,South Africa,"""Beausejour Stadium, Gros Islet""",2013-01-19,South Africa Women in West Indies T20I Series,False,False
+588499,West Indies,South Africa,West Indies,West Indies,field,South Africa,"""Beausejour Stadium, Gros Islet""",2013-01-20,South Africa Women in West Indies T20I Series,False,False
+603243,Sri Lanka,West Indies,West Indies,Sri Lanka,bat,Sri Lanka,R Premadasa Stadium,2013-03-03,West Indies Women in Sri Lanka T20I Series,False,False
+603244,Sri Lanka,West Indies,West Indies,Sri Lanka,field,West Indies,R Premadasa Stadium,2013-03-05,West Indies Women in Sri Lanka T20I Series,False,False
+603246,Sri Lanka,West Indies,West Indies,West Indies,bat,West Indies,R Premadasa Stadium,2013-03-08,West Indies Women in Sri Lanka T20I Series,False,False
+627008,England,Pakistan,England,England,bat,England,Haslegrave Ground,2013-07-05,Pakistan Women in England T20I Series,False,False
+627009,England,Pakistan,Pakistan,Pakistan,bat,Pakistan,Haslegrave Ground,2013-07-05,Pakistan Women in England T20I Series,False,False
+644941,Ireland,Pakistan,Pakistan,Pakistan,bat,Pakistan,YMCA Cricket Club,2013-07-16,,False,False
+640941,Netherlands,Pakistan,Pakistan,Netherlands,field,Pakistan,Merrion Cricket Club Ground,2013-07-27,ICC Women's World Twenty20 Qualifier,False,False
+640947,Ireland,Pakistan,Pakistan,Pakistan,field,Ireland,YMCA Cricket Club,2013-07-29,ICC Women's World Twenty20 Qualifier,False,False
+640951,Netherlands,Sri Lanka,Sri Lanka,Netherlands,field,Sri Lanka,YMCA Cricket Club,2013-07-29,ICC Women's World Twenty20 Qualifier,False,False
+640959,Ireland,Netherlands,Ireland,Netherlands,field,Ireland,YMCA Cricket Club,2013-08-01,ICC Women's World Twenty20 Qualifier,False,False
+593726,England,Australia,England,England,bat,England,County Ground,2013-08-27,Women's Ashes,False,False
+593727,England,Australia,England,Australia,bat,Australia,The Rose Bowl,2013-08-29,Women's Ashes,False,False
+593728,England,Australia,England,England,field,Australia,Riverside Ground,2013-08-31,Women's Ashes,False,False
+664293,South Africa,Bangladesh,South Africa,Bangladesh,bat,Bangladesh,Senwes Park,2013-09-14,Bangladesh Women in South Africa T20I Series,False,False
+664295,South Africa,Bangladesh,South Africa,South Africa,bat,South Africa,Senwes Park,2013-09-15,Bangladesh Women in South Africa T20I Series,False,False
+668515,South Africa,Sri Lanka,South Africa,South Africa,field,Sri Lanka,Senwes Park,2013-10-31,Sri Lanka Women in South Africa T20I Series,False,False
+668517,South Africa,Sri Lanka,Sri Lanka,South Africa,field,Sri Lanka,Senwes Park,2013-11-02,Sri Lanka Women in South Africa T20I Series,False,False
+668519,South Africa,Sri Lanka,South Africa,South Africa,field,Sri Lanka,Senwes Park,2013-11-04,Sri Lanka Women in South Africa T20I Series,False,False
+698983,Pakistan,South Africa,Pakistan,Pakistan,field,South Africa,West End Park International Cricket Stadium,2014-01-19,PCB Qatar Women's 20-over Tri-Series,False,False
+698985,Ireland,Pakistan,Ireland,Ireland,field,Pakistan,West End Park International Cricket Stadium,2014-01-19,PCB Qatar Women's 20-over Tri-Series,False,False
+698987,Ireland,South Africa,South Africa,Ireland,field,South Africa,West End Park International Cricket Stadium,2014-01-20,PCB Qatar Women's 20-over Tri-Series,False,False
+698995,Pakistan,South Africa,Pakistan,Pakistan,field,South Africa,West End Park International Cricket Stadium,2014-01-24,PCB Qatar Women's 20-over Tri-Series,False,False
+666047,Australia,England,Australia,Australia,field,England,Melbourne Cricket Ground,2014-01-31,Women's Ashes,False,False
+666049,Australia,England,Australia,Australia,field,England,Stadium Australia,2014-02-02,Women's Ashes,False,False
+682967,Australia,New Zealand,New Zealand,Australia,field,New Zealand,Sylhet Stadium,2014-03-23,Women's World T20,False,False
+682971,England,West Indies,West Indies,England,field,West Indies,Sylhet Stadium,2014-03-24,Women's World T20,False,False
+682973,India,Sri Lanka,Sri Lanka,Sri Lanka,bat,Sri Lanka,Sylhet Stadium,2014-03-24,Women's World T20,False,False
+682975,Ireland,New Zealand,New Zealand,New Zealand,bat,New Zealand,Sylhet Stadium,2014-03-25,Women's World T20,False,False
+682979,Bangladesh,West Indies,West Indies,West Indies,bat,West Indies,Sylhet Stadium,2014-03-26,Women's World T20,False,False
+682981,England,India,England,India,bat,India,Sylhet Stadium,2014-03-26,Women's World T20,False,False
+682985,New Zealand,Pakistan,New Zealand,New Zealand,bat,New Zealand,Sylhet Stadium,2014-03-27,Women's World T20,False,False
+682989,Sri Lanka,West Indies,West Indies,Sri Lanka,bat,Sri Lanka,Sylhet Stadium,2014-03-28,Women's World T20,False,False
+682993,Australia,Pakistan,Australia,Australia,bat,Australia,Sylhet Stadium,2014-03-29,Women's World T20,False,False
+682991,Ireland,South Africa,South Africa,South Africa,bat,South Africa,Sylhet Stadium,2014-03-29,Women's World T20,False,False
+682997,England,Sri Lanka,England,Sri Lanka,bat,Sri Lanka,Sylhet Stadium,2014-03-30,Women's World T20,False,False
+682995,Bangladesh,India,India,India,bat,India,Sylhet Stadium,2014-03-30,Women's World T20,False,False
+682999,Ireland,Pakistan,Pakistan,Pakistan,bat,Pakistan,Sylhet Stadium,2014-03-31,Women's World T20,False,False
+683001,New Zealand,South Africa,South Africa,New Zealand,bat,New Zealand,Sylhet Stadium,2014-03-31,Women's World T20,False,False
+683005,India,West Indies,India,West Indies,bat,West Indies,Sylhet Stadium,2014-04-01,Women's World T20,False,False
+683003,Bangladesh,Sri Lanka,Bangladesh,Bangladesh,bat,Bangladesh,Sylhet Stadium,2014-04-01,Women's World T20,False,False
+683009,India,Pakistan,India,India,bat,India,Sylhet Stadium,2014-04-02,Women's World T20,False,False
+683007,New Zealand,Sri Lanka,New Zealand,Sri Lanka,bat,Sri Lanka,Sylhet Stadium,2014-04-02,Women's World T20,False,False
+718467,Bangladesh,Ireland,Bangladesh,Bangladesh,bat,Bangladesh,Sylhet Stadium,2014-04-03,Women's World T20,False,False
+683011,Australia,West Indies,Australia,Australia,bat,Australia,Shere Bangla National Stadium,2014-04-03,Women's World T20,False,False
+718465,Pakistan,Sri Lanka,Pakistan,Pakistan,bat,Pakistan,Sylhet Stadium,2014-04-03,Women's World T20,False,False
+683013,England,South Africa,England,England,field,South Africa,Shere Bangla National Stadium,2014-04-04,Women's World T20,False,False
+683015,Australia,England,Australia,Australia,field,England,Shere Bangla National Stadium,2014-04-06,Women's World T20,False,False
+754793,Australia,Pakistan,Australia,Pakistan,bat,Pakistan,Kerrydale Oval,2014-08-30,Pakistan Women in Australia T20I Series,False,False
+754795,Australia,Pakistan,Australia,Australia,bat,Australia,Kerrydale Oval,2014-08-31,Pakistan Women in Australia T20I Series,False,False
+693433,England,South Africa,England,England,field,South Africa,County Ground,2014-09-01,South Africa Women in England T20I Series,False,False
+693435,England,South Africa,England,England,bat,England,County Ground,2014-09-03,South Africa Women in England T20I Series,False,False
+754797,Australia,Pakistan,Australia,Pakistan,bat,Pakistan,Kerrydale Oval,2014-09-03,Pakistan Women in Australia T20I Series,False,False
+754799,Australia,Pakistan,Australia,Australia,bat,Australia,Kerrydale Oval,2014-09-05,Pakistan Women in Australia T20I Series,False,False
+693437,England,South Africa,England,South Africa,field,England,Edgbaston,2014-09-07,South Africa Women in England T20I Series,False,False
+778011,Bangladesh,Sri Lanka,Bangladesh,Bangladesh,bat,Bangladesh,Yeonhui Cricket Ground,2014-09-25,Asian Games Women's Cricket Competition,False,False
+778015,Bangladesh,Pakistan,Pakistan,Pakistan,bat,Pakistan,Yeonhui Cricket Ground,2014-09-26,Asian Games Women's Cricket Competition,False,False
+757511,Sri Lanka,South Africa,Sri Lanka,Sri Lanka,bat,Sri Lanka,Colts Cricket Club Ground,2014-10-23,South Africa Women in Sri Lanka T20I Series,False,False
+757513,Sri Lanka,South Africa,South Africa,Sri Lanka,bat,Sri Lanka,Colts Cricket Club Ground,2014-10-25,South Africa Women in Sri Lanka T20I Series,False,False
+757515,Sri Lanka,South Africa,South Africa,Sri Lanka,bat,Sri Lanka,Mercantile Cricket Association Ground,2014-10-26,South Africa Women in Sri Lanka T20I Series,False,False
+754801,Australia,West Indies,Australia,Australia,field,West Indies,North Sydney Oval,2014-11-02,West Indies Women in Australia T20I Series,False,False
+754805,Australia,West Indies,Australia,West Indies,bat,West Indies,Melbourne Cricket Ground,2014-11-07,West Indies Women in Australia T20I Series,False,False
+808869,Pakistan,Sri Lanka,Pakistan,Pakistan,bat,Pakistan,Sharjah Cricket Stadium,2015-01-16,Pakistan Women v Sri Lanka Women T20I Series,False,False
+808871,Pakistan,Sri Lanka,Sri Lanka,Pakistan,bat,Pakistan,Sharjah Cricket Stadium,2015-01-17,Pakistan Women v Sri Lanka Women T20I Series,False,False
+828247,Pakistan,South Africa,Pakistan,Pakistan,field,South Africa,Sharjah Cricket Stadium,2015-03-19,Pakistan Women v South Africa Women T20I Series,False,False
+828249,Pakistan,South Africa,Pakistan,South Africa,bat,South Africa,Sharjah Cricket Stadium,2015-03-20,Pakistan Women v South Africa Women T20I Series,False,False
+828251,Pakistan,South Africa,South Africa,South Africa,field,Pakistan,Sharjah Cricket Stadium,2015-03-22,Pakistan Women v South Africa Women T20I Series,False,False
+856117,Sri Lanka,West Indies,Sri Lanka,Sri Lanka,field,West Indies,R Premadasa Stadium,2015-05-23,West Indies Women tour of Sri Lanka,False,False
+856119,Sri Lanka,West Indies,West Indies,Sri Lanka,bat,Sri Lanka,R Premadasa Stadium,2015-05-25,West Indies Women in Sri Lanka T20I Series,False,False
+856121,Sri Lanka,West Indies,West Indies,West Indies,field,Sri Lanka,R Premadasa Stadium,2015-05-26,West Indies Women in Sri Lanka T20I Series,False,False
+798615,Ireland,Australia,Australia,Ireland,field,Australia,YMCA Cricket Club,2015-08-19,Australia Women in Ireland T20I Series,False,False
+798619,Ireland,Australia,Australia,Australia,bat,Australia,YMCA Cricket Club,2015-08-21,Australia Women in Ireland T20I Series,False,False
+798621,Ireland,Australia,Australia,Australia,bat,Australia,YMCA Cricket Club,2015-08-22,Australia Women in Ireland T20I Series,False,False
+798377,England,Australia,England,England,field,Australia,County Ground,2015-08-26,Women's Ashes,False,False
+798379,England,Australia,Australia,England,field,Australia,County Ground,2015-08-28,Women's Ashes,False,False
+798381,England,Australia,England,England,field,Australia,Sophia Gardens,2015-08-31,Women's Ashes,False,False
+923321,Pakistan,Bangladesh,Pakistan,Pakistan,bat,Pakistan,Southend Club Cricket Stadium,2015-09-30,Bangladesh Women in Pakistan T20I Series,False,False
+923323,Pakistan,Bangladesh,Pakistan,Pakistan,bat,Pakistan,Southend Club Cricket Stadium,2015-10-01,Bangladesh Women in Pakistan T20I Series,False,False
+892043,West Indies,Pakistan,West Indies,West Indies,field,Pakistan,"""National Cricket Stadium, St George's""",2015-10-29,Pakistan Women in West Indies T20I Series,False,False
+881725,Ireland,Netherlands,Ireland,Netherlands,bat,Netherlands,Asian Institute of Technology Ground,2015-11-28,ICC Women's World Twenty20 Qualifier,False,False
+881751,Ireland,Scotland,Ireland,Ireland,field,Scotland,Terdthai Cricket Ground,2015-12-03,ICC Women's World Twenty20 Qualifier,False,False
+881755,Bangladesh,Ireland,Ireland,Bangladesh,bat,Bangladesh,Terdthai Cricket Ground,2015-12-05,ICC Women's World Twenty20 Qualifier,False,False
+895789,Australia,India,India,India,field,Australia,Melbourne Cricket Ground,2016-01-29,India Women in Australia T20I Series,False,False
+895791,Australia,India,Australia,India,field,Australia,Sydney Cricket Ground,2016-01-31,India Women in Australia T20I Series,False,False
+907381,South Africa,England,England,South Africa,field,England,Boland Park,2016-02-18,England Women in South Africa T20I Series,False,False
+907385,South Africa,England,England,England,field,South Africa,New Wanderers Stadium,2016-02-21,England Women in South Africa T20I Series,False,False
+907395,South Africa,West Indies,South Africa,South Africa,bat,South Africa,Kingsmead,2016-03-04,West Indies Women in South Africa T20I Series,False,False
+907399,South Africa,West Indies,South Africa,South Africa,bat,South Africa,Newlands,2016-03-09,West Indies Women in South Africa T20I Series,False,False
+951375,India,Bangladesh,India,Bangladesh,field,India,M Chinnaswamy Stadium,2016-03-15,Women's World T20,False,False
+951377,New Zealand,Sri Lanka,New Zealand,Sri Lanka,bat,Sri Lanka,Feroz Shah Kotla,2016-03-15,Women's World T20,False,False
+951379,Pakistan,West Indies,West Indies,Pakistan,field,West Indies,"""MA Chidambaram Stadium, Chepauk""",2016-03-16,Women's World T20,False,False
+951381,Bangladesh,England,England,England,bat,England,M Chinnaswamy Stadium,2016-03-17,Women's World T20,False,False
+951383,Ireland,New Zealand,New Zealand,New Zealand,bat,New Zealand,"""Punjab Cricket Association IS Bindra Stadium, Mohali""",2016-03-18,Women's World T20,False,False
+951385,Australia,South Africa,Australia,South Africa,bat,South Africa,"""Vidarbha Cricket Association Stadium, Jamtha""",2016-03-18,Women's World T20,False,False
+951387,India,Pakistan,Pakistan,Pakistan,field,India,Feroz Shah Kotla,2016-03-19,Women's World T20,False,False
+951391,Sri Lanka,Ireland,Sri Lanka,Sri Lanka,bat,Sri Lanka,"""Punjab Cricket Association IS Bindra Stadium, Mohali""",2016-03-20,Women's World T20,False,False
+951389,Bangladesh,West Indies,West Indies,West Indies,bat,West Indies,"""MA Chidambaram Stadium, Chepauk""",2016-03-20,Women's World T20,False,False
+951393,Australia,New Zealand,New Zealand,Australia,bat,Australia,"""Vidarbha Cricket Association Stadium, Jamtha""",2016-03-21,Women's World T20,False,False
+951395,India,England,England,England,field,India,Himachal Pradesh Cricket Association Stadium,2016-03-22,Women's World T20,False,False
+951397,Ireland,South Africa,South Africa,South Africa,bat,South Africa,"""MA Chidambaram Stadium, Chepauk""",2016-03-23,Women's World T20,False,False
+951403,Bangladesh,Pakistan,Pakistan,Bangladesh,bat,Bangladesh,Feroz Shah Kotla,2016-03-24,Women's World T20,False,False
+951401,Australia,Sri Lanka,Australia,Sri Lanka,bat,Sri Lanka,Feroz Shah Kotla,2016-03-24,Women's World T20,False,False
+951399,England,West Indies,England,West Indies,bat,West Indies,Himachal Pradesh Cricket Association Stadium,2016-03-24,Women's World T20,False,False
+951405,Australia,Ireland,Australia,Australia,field,Ireland,Feroz Shah Kotla,2016-03-26,Women's World T20,False,False
+951407,New Zealand,South Africa,New Zealand,New Zealand,field,South Africa,M Chinnaswamy Stadium,2016-03-26,Women's World T20,False,False
+951411,England,Pakistan,England,England,bat,England,"""MA Chidambaram Stadium, Chepauk""",2016-03-27,Women's World T20,False,False
+951409,India,West Indies,West Indies,India,field,West Indies,"""Punjab Cricket Association IS Bindra Stadium, Mohali""",2016-03-27,Women's World T20,False,False
+951413,South Africa,Sri Lanka,Sri Lanka,Sri Lanka,bat,Sri Lanka,M Chinnaswamy Stadium,2016-03-28,Women's World T20,False,False
+951415,Australia,England,Australia,England,field,Australia,Feroz Shah Kotla,2016-03-30,Women's World T20,False,False
+951417,New Zealand,West Indies,West Indies,New Zealand,field,West Indies,Wankhede Stadium,2016-03-31,Women's World T20,False,False
+951419,Australia,West Indies,West Indies,Australia,bat,Australia,Eden Gardens,2016-04-03,Women's World T20,False,False
+946551,England,Pakistan,England,England,bat,England,County Ground,2016-07-03,Pakistan Women in England T20I Series,False,False
+946553,England,Pakistan,England,England,bat,England,The Rose Bowl,2016-07-05,Pakistan Women in England T20I Series,False,False
+946555,England,Pakistan,England,England,bat,England,County Ground,2016-07-07,Pakistan Women in England T20I Series,False,False
+962023,Ireland,Bangladesh,Ireland,Bangladesh,field,Ireland,"""Bready Cricket Club, Magheramason""",2016-09-05,Bangladesh Women in Ireland T20I Series,False,False
+1044211,Sri Lanka,Australia,Australia,Australia,field,Sri Lanka,Sinhalese Sports Club Ground,2016-09-27,,False,False
+1050615,New Zealand,Pakistan,New Zealand,New Zealand,bat,New Zealand,Saxton Oval,2016-11-21,,False,False
+1065348,India,Pakistan,India,India,bat,India,Asian Institute of Technology Ground,2016-12-04,Asian Cricket Council Women's Twenty20 Asia Cup,False,False
+1043989,Australia,New Zealand,Australia,New Zealand,field,Australia,Melbourne Cricket Ground,2017-02-17,New Zealand Women in Australia T20I Series,False,False
+1043991,Australia,New Zealand,New Zealand,Australia,field,New Zealand,"""Simonds Stadium, South Geelong""",2017-02-19,New Zealand Women in Australia T20I Series,False,False
+1043993,Australia,New Zealand,New Zealand,New Zealand,bat,New Zealand,Adelaide Oval,2017-02-22,New Zealand Women in Australia T20I Series,False,False
+1116056,Netherlands,Scotland,Scotland,Scotland,field,Netherlands,New Williamfield No1 Oval,2017-08-15,ICC Women's World Twenty20 Qualifying Series European-Americas Region,False,False
+1116061,Netherlands,Scotland,Netherlands,Scotland,field,Netherlands,New Williamfield No1 Oval,2017-08-19,ICC Women's World Twenty20 Qualifying Series European-Americas Region,False,False
+1122902,West Indies,Sri Lanka,West Indies,West Indies,bat,West Indies,Coolidge Cricket Ground,2017-10-21,Sri Lanka Women tour of West Indies,False,False
+1122908,New Zealand,Pakistan,New Zealand,New Zealand,bat,New Zealand,Sharjah Cricket Stadium,2017-11-09,New Zealand Women tour of United Arab Emirates,False,False
+1122909,New Zealand,Pakistan,New Zealand,New Zealand,bat,New Zealand,Sharjah Cricket Stadium,2017-11-12,New Zealand Women tour of United Arab Emirates,False,False
+1122910,Pakistan,New Zealand,New Zealand,Pakistan,bat,Pakistan,Sharjah Cricket Stadium,2017-11-14,New Zealand Women tour of United Arab Emirates,False,False
+1086067,England,Australia,Australia,Australia,field,England,North Sydney Oval,2017-11-17,England Women tour of Australia,False,False
+1086068,England,Australia,England,England,bat,England,Manuka Oval,2017-11-19,England Women tour of Australia,False,False
+1086069,Australia,England,England,Australia,bat,Australia,Manuka Oval,2017-11-21,England Women tour of Australia,False,False
+1123206,South Africa,India,India,India,field,South Africa,Senwes Park,2018-02-13,India Women tour of South Africa,False,False
+1123207,South Africa,India,India,India,field,South Africa,Buffalo Park,2018-02-16,India Women tour of South Africa,False,False
+1123208,India,South Africa,South Africa,South Africa,field,India,The Wanderers Stadium,2018-02-18,India Women tour of South Africa,False,False
+1123210,India,South Africa,India,South Africa,field,India,Newlands,2018-02-24,India Women tour of South Africa,False,False
+1138194,New Zealand,West Indies,New Zealand,West Indies,field,New Zealand,Bay Oval,2018-03-14,West Indies Women tour of New Zealand,False,False
+1138195,New Zealand,West Indies,New Zealand,West Indies,field,New Zealand,Bay Oval,2018-03-16,West Indies Women tour of New Zealand,False,False
+1138196,New Zealand,West Indies,New Zealand,West Indies,field,New Zealand,Pukekura Park,2018-03-20,West Indies Women tour of New Zealand,False,False
+1131235,India,Australia,Australia,Australia,field,India,Brabourne Stadium,2018-03-22,India Tri-Nation Women's T20 Series,False,False
+1131236,Australia,England,England,England,field,Australia,Brabourne Stadium,2018-03-23,India Tri-Nation Women's T20 Series,False,False
+1138198,West Indies,New Zealand,New Zealand,New Zealand,field,West Indies,Seddon Park,2018-03-25,West Indies Women tour of New Zealand,False,False
+1131237,India,England,England,England,field,India,Brabourne Stadium,2018-03-25,India Tri-Nation Women's T20 Series,False,False
+1131238,Australia,India,Australia,India,field,Australia,Brabourne Stadium,2018-03-26,India Tri-Nation Women's T20 Series,False,False
+1131239,England,Australia,Australia,Australia,field,England,Brabourne Stadium,2018-03-28,India Tri-Nation Women's T20 Series,False,False
+1138202,Sri Lanka,Pakistan,Pakistan,Pakistan,field,Sri Lanka,Sinhalese Sports Club Ground,2018-03-28,Pakistan Women tour of Sri Lanka,False,False
+1131240,England,India,India,England,bat,England,Brabourne Stadium,2018-03-29,India Tri-Nation Women's T20 Series,False,False
+1138203,Pakistan,Sri Lanka,Sri Lanka,Pakistan,bat,Pakistan,Nondescripts Cricket Club Ground,2018-03-30,Pakistan Women tour of Sri Lanka,False,False
+1131241,Australia,England,Australia,England,field,Australia,Brabourne Stadium,2018-03-31,India Tri-Nation Women's T20 Series,False,False
+1144441,South Africa,Bangladesh,South Africa,Bangladesh,field,South Africa,Mangaung Oval,2018-05-19,Bangladesh Women tour of South Africa,False,False
+1144442,South Africa,Bangladesh,South Africa,Bangladesh,field,South Africa,Mangaung Oval,2018-05-20,Bangladesh Women tour of South Africa,False,False
+1148051,Pakistan,Bangladesh,Bangladesh,Bangladesh,field,Pakistan,Kinrara Academy Oval,2018-06-04,Women's Twenty20 Asia Cup,False,False
+1148056,India,Bangladesh,Bangladesh,India,bat,India,Kinrara Academy Oval,2018-06-06,Women's Twenty20 Asia Cup,False,False
+1148054,Pakistan,Sri Lanka,Pakistan,Sri Lanka,field,Pakistan,Kinrara Academy Oval,2018-06-06,Women's Twenty20 Asia Cup,False,False
+1145890,Ireland,New Zealand,New Zealand,Ireland,bat,Ireland,YMCA Cricket Club,2018-06-06,New Zealand Women tour of Ireland and England,False,False
+1148059,Sri Lanka,India,India,Sri Lanka,bat,Sri Lanka,Royal Selangor Club,2018-06-07,Women's Twenty20 Asia Cup,False,False
+1148060,Pakistan,India,India,Pakistan,bat,Pakistan,Kinrara Academy Oval,2018-06-09,Women's Twenty20 Asia Cup,False,False
+1148063,India,Bangladesh,Bangladesh,Bangladesh,field,India,Kinrara Academy Oval,2018-06-10,Women's Twenty20 Asia Cup,False,False
+1126720,New Zealand,South Africa,New Zealand,South Africa,field,New Zealand,The Cooper Associates County Ground,2018-06-20,England Tri-Nation T20 Women's Series,False,False
+1126721,England,South Africa,England,England,bat,England,The Cooper Associates County Ground,2018-06-20,England Tri-Nation T20 Women's Series,False,False
+1126722,England,South Africa,South Africa,England,bat,England,The Cooper Associates County Ground,2018-06-23,England Tri-Nation T20 Women's Series,False,False
+1126723,England,New Zealand,England,England,bat,England,The Cooper Associates County Ground,2018-06-23,England Tri-Nation T20 Women's Series,False,False
+1145894,Ireland,Bangladesh,Bangladesh,Bangladesh,field,Ireland,YMCA Cricket Club,2018-06-28,Bangladesh Women tour of Ireland,False,False
+1126724,South Africa,New Zealand,New Zealand,South Africa,bat,South Africa,County Ground,2018-06-28,England Tri-Nation T20 Women's Series,False,False
+1126725,New Zealand,England,England,New Zealand,bat,New Zealand,County Ground,2018-06-28,England Tri-Nation T20 Women's Series,False,False
+1145895,Ireland,Bangladesh,Bangladesh,Ireland,bat,Ireland,"""The Village, Malahide, Dublin""",2018-06-29,Bangladesh Women tour of Ireland,False,False
+1126726,New Zealand,England,England,New Zealand,bat,New Zealand,County Ground,2018-07-01,England Tri-Nation T20 Women's Series,False,False
+1145896,Bangladesh,Ireland,Ireland,Ireland,field,Bangladesh,"""Pembroke Cricket Club, Sandymount""",2018-07-01,Bangladesh Women tour of Ireland,False,False
+1147723,Netherlands,Bangladesh,Bangladesh,Bangladesh,field,Netherlands,Sportpark Maarschalkerweerd,2018-07-08,ICC Women's T20 Qualifier,False,False
+1147722,Scotland,Ireland,Ireland,Ireland,field,Scotland,VRA Ground,2018-07-08,ICC Women's T20 Qualifier,False,False
+1147731,Bangladesh,Scotland,Bangladesh,Scotland,field,Bangladesh,VRA Ground,2018-07-12,ICC Women's T20 Qualifier,False,False
+1147736,Bangladesh,Ireland,Bangladesh,Ireland,field,Bangladesh,Sportpark Maarschalkerweerd,2018-07-14,ICC Women's T20 Qualifier,False,False
+1157711,Sri Lanka,India,India,India,field,Sri Lanka,Colombo Cricket Club Ground,2018-09-22,India Women tour of Sri Lanka,False,False
+1157712,Sri Lanka,India,India,India,field,Sri Lanka,Colombo Cricket Club Ground,2018-09-24,India Women tour of Sri Lanka,False,False
+1157713,India,Sri Lanka,India,Sri Lanka,field,India,Chilaw Marians Cricket Club Ground,2018-09-25,India Women tour of Sri Lanka,False,False
+1156216,South Africa,West Indies,West Indies,West Indies,field,South Africa,"""Brian Lara Stadium, Tarouba""",2018-09-28,South Africa Women tour of West Indies,False,False
+1144978,New Zealand,Australia,Australia,Australia,field,New Zealand,North Sydney Oval,2018-09-29,New Zealand Women tour of Australia,False,False
+1144979,New Zealand,Australia,Australia,Australia,field,New Zealand,Allan Border Field,2018-10-01,New Zealand Women tour of Australia,False,False
+1156218,West Indies,South Africa,South Africa,South Africa,field,West Indies,"""Brian Lara Stadium, Tarouba""",2018-10-04,South Africa Women tour of West Indies,False,False
+1144980,New Zealand,Australia,Australia,Australia,field,New Zealand,Manuka Oval,2018-10-05,New Zealand Women tour of Australia,False,False
+1156219,West Indies,South Africa,South Africa,South Africa,field,West Indies,"""Brian Lara Stadium, Tarouba""",2018-10-06,South Africa Women tour of West Indies,False,False
+1161231,Australia,Pakistan,Australia,Australia,bat,Australia,Kinrara Academy Oval,2018-10-25,Australia Women v Pakistan Women T20I Series,False,False
+1161232,Pakistan,Australia,Australia,Australia,field,Pakistan,Kinrara Academy Oval,2018-10-27,Australia Women v Pakistan Women T20I Series,False,False
+1161233,Pakistan,Australia,Australia,Australia,field,Pakistan,Kinrara Academy Oval,2018-10-29,Australia Women v Pakistan Women T20I Series,False,False
+1150534,Australia,Pakistan,Australia,Australia,bat,Australia,Providence Stadium,2018-11-09,ICC Women's T20 World Cup,False,False
+1150533,India,New Zealand,India,India,bat,India,Providence Stadium,2018-11-09,ICC Women's T20 World Cup,False,False
+1150535,West Indies,Bangladesh,West Indies,Bangladesh,field,West Indies,Providence Stadium,2018-11-09,ICC Women's T20 World Cup,False,False
+1150538,Ireland,Australia,Australia,Ireland,bat,Ireland,Providence Stadium,2018-11-11,ICC Women's T20 World Cup,False,False
+1150537,Pakistan,India,India,India,field,Pakistan,Providence Stadium,2018-11-11,ICC Women's T20 World Cup,False,False
+1150539,Bangladesh,England,England,England,field,Bangladesh,"""Daren Sammy National Cricket Stadium, Gros Islet""",2018-11-12,ICC Women's T20 World Cup,False,False
+1150540,Sri Lanka,South Africa,South Africa,South Africa,field,Sri Lanka,"""Daren Sammy National Cricket Stadium, Gros Islet""",2018-11-12,ICC Women's T20 World Cup,False,False
+1150542,Australia,New Zealand,Australia,Australia,bat,Australia,Providence Stadium,2018-11-13,ICC Women's T20 World Cup,False,False
+1150541,Pakistan,Ireland,Pakistan,Pakistan,bat,Pakistan,Providence Stadium,2018-11-13,ICC Women's T20 World Cup,False,False
+1150543,Sri Lanka,Bangladesh,Sri Lanka,Bangladesh,field,Sri Lanka,"""Daren Sammy National Cricket Stadium, Gros Islet""",2018-11-14,ICC Women's T20 World Cup,False,False
+1150544,West Indies,South Africa,West Indies,South Africa,field,West Indies,"""Daren Sammy National Cricket Stadium, Gros Islet""",2018-11-14,ICC Women's T20 World Cup,False,False
+1150545,India,Ireland,India,Ireland,field,India,Providence Stadium,2018-11-15,ICC Women's T20 World Cup,False,False
+1150546,New Zealand,Pakistan,New Zealand,Pakistan,field,New Zealand,Providence Stadium,2018-11-15,ICC Women's T20 World Cup,False,False
+1150547,South Africa,England,England,South Africa,bat,South Africa,"""Daren Sammy National Cricket Stadium, Gros Islet""",2018-11-16,ICC Women's T20 World Cup,False,False
+1150548,West Indies,Sri Lanka,West Indies,West Indies,bat,West Indies,"""Daren Sammy National Cricket Stadium, Gros Islet""",2018-11-16,ICC Women's T20 World Cup,False,False
+1150550,Ireland,New Zealand,New Zealand,Ireland,bat,Ireland,Providence Stadium,2018-11-17,ICC Women's T20 World Cup,False,False
+1150549,India,Australia,India,India,bat,India,Providence Stadium,2018-11-17,ICC Women's T20 World Cup,False,False
+1150552,South Africa,Bangladesh,South Africa,Bangladesh,field,South Africa,"""Daren Sammy National Cricket Stadium, Gros Islet""",2018-11-18,ICC Women's T20 World Cup,False,False
+1150551,England,West Indies,West Indies,West Indies,field,England,"""Daren Sammy National Cricket Stadium, Gros Islet""",2018-11-18,ICC Women's T20 World Cup,False,False
+1150554,India,England,England,India,bat,India,"""Sir Vivian Richards Stadium, North Sound""",2018-11-22,ICC Women's T20 World Cup,False,False
+1150553,Australia,West Indies,Australia,West Indies,field,Australia,"""Sir Vivian Richards Stadium, North Sound""",2018-11-22,ICC Women's T20 World Cup,False,False
+1150555,England,Australia,Australia,England,bat,England,"""Sir Vivian Richards Stadium, North Sound""",2018-11-24,ICC Women's T20 World Cup,False,False
+1172469,Pakistan,West Indies,West Indies,West Indies,bat,West Indies,Southend Club Cricket Stadium,2019-01-31,West Indies Women tour of Pakistan and United Arab Emirates,False,False
+1168160,South Africa,Sri Lanka,South Africa,Sri Lanka,bat,Sri Lanka,Newlands,2019-02-01,Sri Lanka Women tour of South Africa,False,False
+1172471,Pakistan,West Indies,Pakistan,Pakistan,bat,Pakistan,Southend Club Cricket Stadium,2019-02-03,West Indies Women tour of Pakistan and United Arab Emirates,False,False
+1168162,South Africa,Sri Lanka,South Africa,Sri Lanka,field,South Africa,SuperSport Park,2019-02-06,Sri Lanka Women tour of South Africa,False,False
+1153858,New Zealand,India,New Zealand,India,field,New Zealand,Westpac Stadium,2019-02-06,India Women tour of New Zealand,False,False
+1153859,New Zealand,India,New Zealand,New Zealand,field,India,Eden Park,2019-02-08,India Women tour of New Zealand,False,False
+1153860,New Zealand,India,New Zealand,New Zealand,bat,New Zealand,Seddon Park,2019-02-10,India Women tour of New Zealand,False,False
+1172163,India,England,England,India,field,England,Barsapara Cricket Stadium,2019-03-04,England Women tour of India,False,False
+1172164,India,England,England,England,field,India,Barsapara Cricket Stadium,2019-03-07,England Women tour of India,False,False
+1172165,India,England,England,England,bat,England,Barsapara Cricket Stadium,2019-03-09,England Women tour of India,False,False
+1176435,Sri Lanka,England,England,Sri Lanka,bat,Sri Lanka,P Sara Oval,2019-03-24,England Women tour of Sri Lanka,False,False
+1176436,Sri Lanka,England,England,Sri Lanka,bat,Sri Lanka,P Sara Oval,2019-03-26,England Women tour of Sri Lanka,False,False
+1176437,Sri Lanka,England,England,Sri Lanka,field,England,P Sara Oval,2019-03-28,England Women tour of Sri Lanka,False,False
+1177018,South Africa,Pakistan,Pakistan,Pakistan,field,South Africa,LC de Villiers Oval,2019-05-15,Pakistan Women tour of South Africa,False,False
+1177019,South Africa,Pakistan,South Africa,Pakistan,bat,Pakistan,City Oval,2019-05-18,Pakistan Women tour of South Africa,False,False
+1177020,South Africa,Pakistan,Pakistan,Pakistan,field,South Africa,City Oval,2019-05-19,Pakistan Women tour of South Africa,False,False
+1177021,South Africa,Pakistan,South Africa,South Africa,field,Pakistan,Willowmoore Park,2019-05-22,Pakistan Women tour of South Africa,False,False
+1177022,South Africa,Pakistan,South Africa,South Africa,field,Pakistan,Willowmoore Park,2019-05-23,Pakistan Women tour of South Africa,False,False
+1185154,Ireland,West Indies,West Indies,West Indies,bat,West Indies,YMCA Cricket Club,2019-05-26,West Indies Women tour of England and Ireland,False,False
+1185155,Ireland,West Indies,West Indies,West Indies,bat,West Indies,Sydney Parade,2019-05-28,West Indies Women tour of England and Ireland,False,False
+1185156,Ireland,West Indies,West Indies,Ireland,field,West Indies,Sydney Parade,2019-05-29,West Indies Women tour of England and Ireland,False,False
+1168020,England,West Indies,England,England,bat,England,County Ground,2019-06-21,West Indies Women tour of England and Ireland,False,False
+1190605,Netherlands,Scotland,Netherlands,Scotland,field,Netherlands,La Manga Club Top Ground,2019-06-26,ICC Women's T20 World Cup Europe Region Qualifier,False,False
+1168026,England,Australia,Australia,England,field,Australia,County Ground,2019-07-26,Australia Women tour of England,False,False
+1168027,England,Australia,Australia,England,bat,England,"""County Ground, Hove""",2019-07-28,Australia Women tour of England,False,False
+1168028,England,Australia,England,Australia,field,England,County Ground,2019-07-31,Australia Women tour of England,False,False
+1190744,Netherlands,Ireland,Ireland,Netherlands,field,Ireland,Sportpark Het Schootsveld,2019-08-08,Women's T20I Quadrangular Series (in Netherlands),False,False
+1190746,Netherlands,Scotland,Scotland,Netherlands,bat,Netherlands,Sportpark Het Schootsveld,2019-08-09,Women's T20I Quadrangular Series (in Netherlands),False,False
+1190749,Ireland,Scotland,Scotland,Scotland,bat,Scotland,Sportpark Het Schootsveld,2019-08-10,Women's T20I Quadrangular Series (in Netherlands),False,False
+1190753,Netherlands,Scotland,Scotland,Netherlands,field,Scotland,Sportpark Het Schootsveld,2019-08-13,Women's T20I Quadrangular Series (in Netherlands),False,False
+1190754,Ireland,Scotland,Ireland,Scotland,bat,Scotland,Sportpark Het Schootsveld,2019-08-14,Women's T20I Quadrangular Series (in Netherlands),False,False
+1197053,Ireland,Netherlands,Ireland,Ireland,bat,Ireland,Forthill,2019-09-01,ICC Women's T20 World Cup Qualifier,False,False
+1197057,Scotland,Bangladesh,Bangladesh,Scotland,field,Bangladesh,Forthill,2019-09-03,ICC Women's T20 World Cup Qualifier,False,False
+1197059,Bangladesh,Ireland,Bangladesh,Ireland,bat,Ireland,Forthill,2019-09-05,ICC Women's T20 World Cup Qualifier,False,False
+1197066,Scotland,Netherlands,Scotland,Netherlands,field,Scotland,Lochlands,2019-09-07,ICC Women's T20 World Cup Qualifier,False,False
+1198475,West Indies,Australia,Australia,West Indies,bat,West Indies,"""Kensington Oval, Barbados""",2019-09-14,Australia Women tour of West Indies,False,False
+1198476,West Indies,Australia,Australia,Australia,field,West Indies,"""Kensington Oval, Barbados""",2019-09-16,Australia Women tour of West Indies,False,False
+1198477,West Indies,Australia,Australia,West Indies,bat,West Indies,"""Kensington Oval, Barbados""",2019-09-18,Australia Women tour of West Indies,False,False
+1198478,India,South Africa,India,South Africa,field,India,Lalabhai Contractor Stadium,2019-09-24,South Africa Women tour of India,False,False
+1183510,Australia,Sri Lanka,Australia,Australia,bat,Australia,North Sydney Oval,2019-09-29,Sri Lanka Women tour of Australia,False,False
+1183511,Australia,Sri Lanka,Australia,Sri Lanka,bat,Sri Lanka,North Sydney Oval,2019-09-30,Sri Lanka Women tour of Australia,False,False
+1198481,India,South Africa,India,South Africa,field,India,Lalabhai Contractor Stadium,2019-10-01,South Africa Women tour of India,False,False
+1183512,Australia,Sri Lanka,Australia,Australia,bat,Australia,North Sydney Oval,2019-10-02,Sri Lanka Women tour of Australia,False,False
+1202366,India,South Africa,India,India,field,South Africa,Lalabhai Contractor Stadium,2019-10-03,South Africa Women tour of India,False,False
+1198482,India,South Africa,South Africa,South Africa,bat,South Africa,Lalabhai Contractor Stadium,2019-10-04,South Africa Women tour of India,False,False
+1204726,Pakistan,Bangladesh,Pakistan,Pakistan,bat,Pakistan,Gaddafi Stadium,2019-10-26,Bangladesh Women tour of Pakistan,False,False
+1202252,West Indies,India,India,West Indies,field,India,"""Darren Sammy National Cricket Stadium, St Lucia""",2019-11-09,India Women tour of West Indies,False,False
+1202253,West Indies,India,India,West Indies,bat,West Indies,"""Darren Sammy National Cricket Stadium, St Lucia""",2019-11-10,India Women tour of West Indies,False,False
+1202254,West Indies,India,India,West Indies,bat,West Indies,"""Providence Stadium, Guyana""",2019-11-14,India Women tour of West Indies,False,False
+1202255,West Indies,India,India,West Indies,field,India,"""Providence Stadium, Guyana""",2019-11-17,India Women tour of West Indies,False,False
+1202256,West Indies,India,India,India,bat,India,"""Providence Stadium, Guyana""",2019-11-20,India Women tour of West Indies,False,False
+1208347,England,Pakistan,England,Pakistan,field,England,Kinrara Academy Oval,2019-12-17,England Women tour of Malaysia,False,False
+1208348,England,Pakistan,England,England,bat,England,Kinrara Academy Oval,2019-12-19,England Women tour of Malaysia,False,False
+1208349,England,Pakistan,England,England,bat,England,Kinrara Academy Oval,2019-12-20,England Women tour of Malaysia,False,False
+1183543,England,India,India,India,field,England,Manuka Oval,2020-01-31,Australia Tri-Nation Women's T20 Series,False,False
+1187717,New Zealand,South Africa,New Zealand,New Zealand,field,South Africa,Bay Oval,2020-02-02,South Africa Women tour of New Zealand,False,False
+1183545,Australia,India,Australia,Australia,field,India,Manuka Oval,2020-02-02,Australia Tri-Nation Women's T20 Series,False,False
+1187718,New Zealand,South Africa,New Zealand,New Zealand,field,South Africa,Seddon Park,2020-02-06,South Africa Women tour of New Zealand,False,False
+1183546,England,India,England,England,field,India,Junction Oval,2020-02-07,Australia Tri-Nation Women's T20 Series,False,False
+1183547,Australia,India,India,India,field,Australia,Junction Oval,2020-02-08,Australia Tri-Nation Women's T20 Series,False,False
+1187719,New Zealand,South Africa,South Africa,New Zealand,bat,New Zealand,Basin Reserve,2020-02-09,South Africa Women tour of New Zealand,False,False
+1183548,Australia,England,Australia,England,field,Australia,Junction Oval,2020-02-09,Australia Tri-Nation Women's T20 Series,False,False
+1187720,New Zealand,South Africa,New Zealand,South Africa,field,New Zealand,Basin Reserve,2020-02-10,South Africa Women tour of New Zealand,False,False
+1183549,Australia,India,Australia,Australia,bat,Australia,Junction Oval,2020-02-12,Australia Tri-Nation Women's T20 Series,False,False
+1173048,Australia,India,India,Australia,field,India,Sydney Showground Stadium,2020-02-21,ICC Women's T20 World Cup,False,False
+1173050,New Zealand,Sri Lanka,New Zealand,New Zealand,field,Sri Lanka,W.A.C.A. Ground,2020-02-22,ICC Women's T20 World Cup,False,False
+1173051,England,South Africa,South Africa,South Africa,field,England,W.A.C.A. Ground,2020-02-23,ICC Women's T20 World Cup,False,False
+1173052,Australia,Sri Lanka,Australia,Sri Lanka,bat,Sri Lanka,W.A.C.A. Ground,2020-02-24,ICC Women's T20 World Cup,False,False
+1173053,Bangladesh,India,India,Bangladesh,field,India,W.A.C.A. Ground,2020-02-24,ICC Women's T20 World Cup,False,False
+1173055,Pakistan,West Indies,Pakistan,West Indies,bat,West Indies,Manuka Oval,2020-02-26,ICC Women's T20 World Cup,False,False
+1173057,Australia,Bangladesh,Australia,Australia,bat,Australia,Manuka Oval,2020-02-27,ICC Women's T20 World Cup,False,False
+1173056,India,New Zealand,India,New Zealand,field,India,Junction Oval,2020-02-27,ICC Women's T20 World Cup,False,False
+1173059,England,Pakistan,England,Pakistan,field,England,Manuka Oval,2020-02-28,ICC Women's T20 World Cup,False,False
+1173060,Bangladesh,New Zealand,New Zealand,New Zealand,bat,New Zealand,Junction Oval,2020-02-29,ICC Women's T20 World Cup,False,False
+1173061,India,Sri Lanka,India,Sri Lanka,bat,Sri Lanka,Junction Oval,2020-02-29,ICC Women's T20 World Cup,False,False
+1173063,England,West Indies,England,England,bat,England,Sydney Showground Stadium,2020-03-01,ICC Women's T20 World Cup,False,False
+1173062,Pakistan,South Africa,South Africa,South Africa,bat,South Africa,Sydney Showground Stadium,2020-03-01,ICC Women's T20 World Cup,False,False
+1173065,Australia,New Zealand,Australia,New Zealand,field,Australia,Junction Oval,2020-03-02,ICC Women's T20 World Cup,False,False
+1173064,Bangladesh,Sri Lanka,Sri Lanka,Bangladesh,bat,Bangladesh,Junction Oval,2020-03-02,ICC Women's T20 World Cup,False,False
+1173069,Australia,South Africa,Australia,South Africa,field,Australia,Sydney Cricket Ground,2020-03-05,ICC Women's T20 World Cup,False,False
+1173070,Australia,India,Australia,Australia,bat,Australia,Melbourne Cricket Ground,2020-03-08,ICC Women's T20 World Cup,False,False
+1230855,England,West Indies,England,England,bat,England,County Ground,2020-09-21,West Indies Women tour of England,False,False
+1230856,England,West Indies,England,West Indies,field,England,County Ground,2020-09-23,West Indies Women tour of England,False,False
+1230857,England,West Indies,England,England,bat,England,County Ground,2020-09-26,West Indies Women tour of England,False,False
+1223941,Australia,New Zealand,Australia,New Zealand,field,Australia,Allan Border Field,2020-09-26,New Zealand Women tour of Australia,False,False
+1223942,New Zealand,Australia,Australia,New Zealand,bat,New Zealand,Allan Border Field,2020-09-27,New Zealand Women tour of Australia,False,False
+1230858,England,West Indies,England,England,bat,England,County Ground,2020-09-28,West Indies Women tour of England,False,False
+1230859,West Indies,England,England,England,field,West Indies,County Ground,2020-09-30,West Indies Women tour of England,False,False
+1223943,Australia,New Zealand,New Zealand,New Zealand,field,Australia,Allan Border Field,2020-09-30,New Zealand Women tour of Australia,False,False
+1244846,Pakistan,South Africa,South Africa,Pakistan,bat,Pakistan,Kingsmead,2021-01-29,Pakistan Women tour of South Africa,False,False
+1244847,South Africa,Pakistan,South Africa,Pakistan,field,South Africa,Kingsmead,2021-01-31,Pakistan Women tour of South Africa,False,False
+1244848,Pakistan,South Africa,Pakistan,South Africa,field,Pakistan,Kingsmead,2021-02-03,Pakistan Women tour of South Africa,False,False
+1249235,New Zealand,England,England,England,field,New Zealand,Westpac Stadium,2021-03-03,England Women tour of New Zealand,False,False
+1249236,New Zealand,England,England,England,field,New Zealand,Westpac Stadium,2021-03-05,England Women tour of New Zealand,False,False
+1249237,England,New Zealand,England,New Zealand,field,England,Sky Stadium,2021-03-07,England Women tour of New Zealand,False,False
+1253272,India,South Africa,South Africa,South Africa,field,India,Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium,2021-03-20,South Africa Women tour of India,False,False
+1253273,India,South Africa,South Africa,South Africa,field,India,Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium,2021-03-21,South Africa Women tour of India,False,False
+1253274,South Africa,India,India,India,field,South Africa,Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium,2021-03-23,South Africa Women tour of India,False,False
+1249238,New Zealand,Australia,Australia,Australia,field,New Zealand,Seddon Park,2021-03-28,Australia Women tour of New Zealand,False,False
+1249239,Australia,New Zealand,New Zealand,New Zealand,field,Australia,McLean Park,2021-03-30,Australia Women tour of New Zealand,False,False
+1262918,Scotland,Ireland,Scotland,Scotland,bat,Scotland,"""Civil Service Cricket Club, Stormont, Belfast""",2021-05-24,Scotland Women tour of Ireland,False,False
+1262917,Ireland,Scotland,Ireland,Ireland,bat,Ireland,"""Civil Service Cricket Club, Stormont, Belfast""",2021-05-25,Scotland Women tour of Ireland,False,False
+1262919,Ireland,Scotland,Ireland,Ireland,bat,Ireland,"""Civil Service Cricket Club, Stormont, Belfast""",2021-05-26,Scotland Women tour of Ireland,False,False
+1262920,Scotland,Ireland,Ireland,Scotland,bat,Scotland,"""Civil Service Cricket Club, Stormont, Belfast""",2021-05-27,Scotland Women tour of Ireland,False,False
+1267322,West Indies,Pakistan,West Indies,Pakistan,field,West Indies,"""Sir Vivian Richards Stadium, North Sound, Antigua""",2021-06-30,Pakistan Women tour of West Indies,False,False
+1267323,West Indies,Pakistan,West Indies,West Indies,bat,West Indies,"""Coolidge Cricket Ground, Antigua""",2021-07-02,Pakistan Women tour of West Indies,False,False
+1267324,Pakistan,West Indies,West Indies,Pakistan,bat,Pakistan,"""Sir Vivian Richards Stadium, North Sound, Antigua""",2021-07-04,Pakistan Women tour of West Indies,False,False
+1260097,England,India,England,India,field,England,"""County Ground, Northampton""",2021-07-09,India Women tour of England,False,False
+1260098,India,England,India,England,field,India,"""County Ground, Hove""",2021-07-11,India Women tour of England,False,False
+1260099,India,England,England,India,bat,India,"""County Ground, Chelmsford""",2021-07-14,India Women tour of England,False,False
+1268757,Ireland,Netherlands,Ireland,Netherlands,field,Ireland,"""The Village, Malahide, Dublin""",2021-07-26,Netherlands Women tour of Ireland,False,False
+1268759,Netherlands,Ireland,Ireland,Netherlands,bat,Netherlands,"""The Village, Malahide, Dublin""",2021-07-29,Netherlands Women tour of Ireland,False,False
+1268760,Ireland,Netherlands,Netherlands,Netherlands,field,Ireland,"""The Village, Malahide, Dublin""",2021-07-30,Netherlands Women tour of Ireland,False,False
+1274595,Netherlands,Scotland,Scotland,Scotland,field,Netherlands,La Manga Club Top Ground,2021-08-26,ICC Women's T20 World Cup Europe Region Qualifier,False,False
+1274601,Ireland,Scotland,Scotland,Ireland,bat,Ireland,La Manga Club Top Ground,2021-08-27,ICC Women's T20 World Cup Europe Region Qualifier,False,False
+1274609,Ireland,Netherlands,Ireland,Netherlands,field,Ireland,La Manga Club Top Ground,2021-08-30,ICC Women's T20 World Cup Europe Region Qualifier,False,False
+1260100,England,New Zealand,England,New Zealand,field,England,"""County Ground, Chelmsford""",2021-09-01,New Zealand Women tour of England,False,False
+1273416,South Africa,West Indies,South Africa,West Indies,field,South Africa,"""Sir Vivian Richards Stadium, North Sound, Antigua""",2021-09-02,South Africa Women tour of West Indies,False,False
+1273417,South Africa,West Indies,West Indies,South Africa,bat,South Africa,"""Sir Vivian Richards Stadium, North Sound, Antigua""",2021-09-04,South Africa Women tour of West Indies,False,False
+1260101,England,New Zealand,New Zealand,New Zealand,field,England,"""County Ground, Hove""",2021-09-04,New Zealand Women tour of England,False,False
+1260102,New Zealand,England,England,England,field,New Zealand,"""The Cooper Associates County Ground, Taunton""",2021-09-09,New Zealand Women tour of England,False,False
+1263622,India,Australia,Australia,Australia,field,India,Carrara Oval,2021-10-09,India Women tour of Australia,False,False
+1263623,Australia,India,Australia,India,field,Australia,Carrara Oval,2021-10-10,India Women tour of Australia,False,False
+1296028,Sri Lanka,Scotland,Sri Lanka,Sri Lanka,bat,Sri Lanka,"""Kinrara Academy Oval, Kuala Lumpur""",2022-01-18,Commonwealth Games Women's Cricket Competition Qualifiers,False,False
+1263572,England,Australia,Australia,Australia,field,England,Adelaide Oval,2022-01-20,Women's Ashes,False,False
+1296034,Scotland,Bangladesh,Bangladesh,Scotland,bat,Scotland,"""Kinrara Academy Oval, Kuala Lumpur""",2022-01-23,Bangladesh Women tour of Malaysia,False,False
+1296036,Sri Lanka,Bangladesh,Sri Lanka,Sri Lanka,bat,Sri Lanka,"""Kinrara Academy Oval, Kuala Lumpur""",2022-01-24,Commonwealth Games Women's Cricket Competition Qualifiers,False,False
+1289031,New Zealand,India,New Zealand,India,field,New Zealand,"""John Davies Oval, Queenstown""",2022-02-09,India Women tour of New Zealand,False,False
+1310981,Sri Lanka,Pakistan,Pakistan,Sri Lanka,bat,Sri Lanka,"""Southend Club Cricket Stadium, Karachi""",2022-05-24,Sri Lanka Women tour of Pakistan,False,False
+1310982,Sri Lanka,Pakistan,Pakistan,Sri Lanka,bat,Sri Lanka,"""Southend Club Cricket Stadium, Karachi""",2022-05-26,Sri Lanka Women tour of Pakistan,False,False
+1310983,Sri Lanka,Pakistan,Pakistan,Sri Lanka,bat,Sri Lanka,"""Southend Club Cricket Stadium, Karachi""",2022-05-28,Sri Lanka Women tour of Pakistan,False,False
+1316642,Ireland,South Africa,Ireland,South Africa,field,Ireland,"""Pembroke Cricket Club, Sandymount, Dublin""",2022-06-03,South Africa Women tour of Ireland,False,False
+1316643,Ireland,South Africa,South Africa,Ireland,bat,Ireland,"""Pembroke Cricket Club, Sandymount, Dublin""",2022-06-06,South Africa Women tour of Ireland,False,False
+1316644,Ireland,South Africa,South Africa,South Africa,field,Ireland,"""Pembroke Cricket Club, Sandymount, Dublin""",2022-06-08,South Africa Women tour of Ireland,False,False
+1319709,India,Sri Lanka,India,India,bat,India,Rangiri Dambulla International Stadium,2022-06-23,India Women tour of Sri Lanka,False,False
+1319710,Sri Lanka,India,India,Sri Lanka,bat,Sri Lanka,Rangiri Dambulla International Stadium,2022-06-25,India Women tour of Sri Lanka,False,False
+1319711,India,Sri Lanka,Sri Lanka,India,bat,India,Rangiri Dambulla International Stadium,2022-06-27,India Women tour of Sri Lanka,False,False
+1317636,Ireland,Australia,Australia,Australia,field,Ireland,"""Bready Cricket Club, Magheramason, Bready""",2022-07-17,Ireland Tri-Nation Women's T20I Series,False,False
+1317637,Pakistan,Ireland,Pakistan,Pakistan,bat,Pakistan,"""Bready Cricket Club, Magheramason, Bready""",2022-07-19,Ireland Tri-Nation Women's T20I Series,False,False
+1301331,South Africa,England,England,England,field,South Africa,"""County Ground, Chelmsford""",2022-07-21,South Africa Women tour of England,False,False
+1317638,Australia,Ireland,Australia,Ireland,field,Australia,"""Bready Cricket Club, Magheramason, Bready""",2022-07-21,Ireland Tri-Nation Women's T20I Series,False,False
+1301332,South Africa,England,England,England,field,South Africa,"""County Ground, New Road, Worcester""",2022-07-23,South Africa Women tour of England,False,False
+1301333,England,South Africa,England,England,bat,England,"""County Ground, Derby""",2022-07-25,South Africa Women tour of England,False,False
+1289259,India,Australia,Australia,India,bat,India,"""Edgbaston, Birmingham""",2022-07-29,Commonwealth Games Women's Cricket Competition,False,False
+1289261,New Zealand,South Africa,New Zealand,South Africa,field,New Zealand,"""Edgbaston, Birmingham""",2022-07-30,Commonwealth Games Women's Cricket Competition,False,False
+1289262,Sri Lanka,England,England,Sri Lanka,bat,Sri Lanka,"""Edgbaston, Birmingham""",2022-07-30,Commonwealth Games Women's Cricket Competition,False,False
+1289263,Pakistan,India,India,Pakistan,bat,Pakistan,"""Edgbaston, Birmingham""",2022-07-31,Commonwealth Games Women's Cricket Competition,False,False
+1289266,New Zealand,Sri Lanka,New Zealand,New Zealand,bat,New Zealand,"""Edgbaston, Birmingham""",2022-08-02,Commonwealth Games Women's Cricket Competition,False,False
+1289265,England,South Africa,England,South Africa,field,England,"""Edgbaston, Birmingham""",2022-08-02,Commonwealth Games Women's Cricket Competition,False,False
+1289267,Australia,Pakistan,Australia,Australia,bat,Australia,"""Edgbaston, Birmingham""",2022-08-03,Commonwealth Games Women's Cricket Competition,False,False
+1289270,New Zealand,England,England,New Zealand,bat,New Zealand,"""Edgbaston, Birmingham""",2022-08-04,Commonwealth Games Women's Cricket Competition,False,False
+1289269,Sri Lanka,South Africa,South Africa,South Africa,field,Sri Lanka,"""Edgbaston, Birmingham""",2022-08-04,Commonwealth Games Women's Cricket Competition,False,False
+1289271,India,England,India,India,bat,India,"""Edgbaston, Birmingham""",2022-08-06,Commonwealth Games Women's Cricket Competition,False,False
+1289272,New Zealand,Australia,Australia,Australia,field,New Zealand,"""Edgbaston, Birmingham""",2022-08-06,Commonwealth Games Women's Cricket Competition,False,False
+1289273,England,New Zealand,New Zealand,England,bat,England,"""Edgbaston, Birmingham""",2022-08-07,Commonwealth Games Women's Cricket Competition,False,False
+1289274,Australia,India,Australia,Australia,bat,Australia,"""Edgbaston, Birmingham""",2022-08-07,Commonwealth Games Women's Cricket Competition,False,False
+1330807,Scotland,Ireland,Ireland,Ireland,field,Scotland,"""Grange Cricket Club Ground, Raeburn Place, Edinburgh""",2022-09-05,Ireland Women tour of Scotland,False,False
+1330808,Scotland,Ireland,Ireland,Ireland,field,Scotland,"""Grange Cricket Club Ground, Raeburn Place, Edinburgh""",2022-09-06,Ireland Women tour of Scotland,False,False
+1301334,India,England,England,England,field,India,"""Riverside Ground, Chester-le-Street""",2022-09-10,India Women tour of England,False,False
+1301335,England,India,India,England,bat,England,"""County Ground, Derby""",2022-09-13,India Women tour of England,False,False
+1301336,India,England,England,England,field,India,"""County Ground, Bristol""",2022-09-15,India Women tour of England,False,False
+1331385,Bangladesh,Ireland,Bangladesh,Bangladesh,bat,Bangladesh,"""Sheikh Zayed Stadium, Abu Dhabi""",2022-09-18,ICC Women's T20 World Cup Qualifier,False,False
+1331389,Scotland,Bangladesh,Bangladesh,Scotland,bat,Scotland,"""Sheikh Zayed Stadium, Abu Dhabi""",2022-09-19,ICC Women's T20 World Cup Qualifier,False,False
+1331394,Ireland,Scotland,Ireland,Ireland,bat,Ireland,"""Tolerance Oval, Abu Dhabi""",2022-09-21,ICC Women's T20 World Cup Qualifier,False,False
+1331401,Bangladesh,Ireland,Bangladesh,Bangladesh,bat,Bangladesh,"""Sheikh Zayed Stadium, Abu Dhabi""",2022-09-25,ICC Women's T20 World Cup Qualifier,False,False
+1334415,West Indies,New Zealand,West Indies,New Zealand,field,West Indies,"""Sir Vivian Richards Stadium, North Sound, Antigua""",2022-09-28,New Zealand Women tour of West Indies,False,False
+1335786,India,Sri Lanka,India,Sri Lanka,field,India,"""Sylhet International Cricket Stadium, Academy Ground""",2022-10-01,Women's Asia Cup,False,False
+1334416,West Indies,New Zealand,New Zealand,New Zealand,field,West Indies,"""Sir Vivian Richards Stadium, North Sound, Antigua""",2022-10-01,New Zealand Women tour of West Indies,False,False
+1334417,West Indies,New Zealand,New Zealand,New Zealand,field,West Indies,"""Sir Vivian Richards Stadium, North Sound, Antigua""",2022-10-02,New Zealand Women tour of West Indies,False,False
+1335789,Bangladesh,Pakistan,Pakistan,Pakistan,field,Bangladesh,"""Sylhet International Cricket Stadium, Academy Ground""",2022-10-03,Women's Asia Cup,False,False
+1334419,West Indies,New Zealand,New Zealand,New Zealand,field,West Indies,"""Sir Vivian Richards Stadium, North Sound, Antigua""",2022-10-06,New Zealand Women tour of West Indies,False,False
+1335797,Pakistan,India,Pakistan,Pakistan,bat,Pakistan,Sylhet International Cricket Stadium,2022-10-07,Women's Asia Cup,False,False
+1335799,India,Bangladesh,India,India,bat,India,Sylhet International Cricket Stadium,2022-10-08,Women's Asia Cup,False,False
+1335802,Sri Lanka,Bangladesh,Sri Lanka,Bangladesh,field,Sri Lanka,Sylhet International Cricket Stadium,2022-10-10,Women's Asia Cup,False,False
+1335805,Sri Lanka,Pakistan,Pakistan,Sri Lanka,bat,Sri Lanka,Sylhet International Cricket Stadium,2022-10-11,Women's Asia Cup,False,False
+1335807,Sri Lanka,Pakistan,Sri Lanka,Sri Lanka,bat,Sri Lanka,Sylhet International Cricket Stadium,2022-10-13,Women's Asia Cup,False,False
+1335808,Sri Lanka,India,India,Sri Lanka,bat,Sri Lanka,Sylhet International Cricket Stadium,2022-10-15,Women's Asia Cup,False,False
+1308236,Pakistan,Ireland,Ireland,Pakistan,bat,Pakistan,"""Gaddafi Stadium, Lahore""",2022-11-12,Ireland Women tour of Pakistan,False,False
+1308237,Ireland,Pakistan,Pakistan,Pakistan,field,Ireland,"""Gaddafi Stadium, Lahore""",2022-11-14,Ireland Women tour of Pakistan,False,False
+1308238,Ireland,Pakistan,Ireland,Ireland,bat,Ireland,"""Gaddafi Stadium, Lahore""",2022-11-16,Ireland Women tour of Pakistan,False,False
+1344619,New Zealand,Bangladesh,New Zealand,New Zealand,bat,New Zealand,"""Hagley Oval, Christchurch""",2022-12-02,Bangladesh Women tour of New Zealand,False,False
+1344620,New Zealand,Bangladesh,New Zealand,New Zealand,bat,New Zealand,"""University Oval, Dunedin""",2022-12-04,Bangladesh Women tour of New Zealand,False,False
+1344621,New Zealand,Bangladesh,New Zealand,New Zealand,bat,New Zealand,"""John Davies Oval, Queenstown""",2022-12-07,Bangladesh Women tour of New Zealand,False,False
+1345424,India,Australia,Australia,Australia,field,India,"""Dr DY Patil Sports Academy, Mumbai""",2022-12-09,Australia Women tour of India,False,False
+1343934,West Indies,England,England,England,field,West Indies,"""Sir Vivian Richards Stadium, North Sound, Antigua""",2022-12-11,England Women tour of West Indies,False,False
+1343935,England,West Indies,England,England,bat,England,"""Kensington Oval, Bridgetown, Barbados""",2022-12-14,England Women tour of West Indies,False,False
+1345426,Australia,India,Australia,India,field,Australia,"""Brabourne Stadium, Mumbai""",2022-12-14,Australia Women tour of India,False,False
+1345427,Australia,India,Australia,India,field,Australia,"""Brabourne Stadium, Mumbai""",2022-12-17,Australia Women tour of India,False,False
+1343936,England,West Indies,England,England,bat,England,"""Kensington Oval, Bridgetown, Barbados""",2022-12-17,England Women tour of West Indies,False,False
+1343937,England,West Indies,England,England,bat,England,"""Kensington Oval, Bridgetown, Barbados""",2022-12-18,England Women tour of West Indies,False,False
+1345428,Australia,India,Australia,India,field,Australia,"""Brabourne Stadium, Mumbai""",2022-12-20,Australia Women tour of India,False,False
+1343938,West Indies,England,England,West Indies,bat,West Indies,"""Kensington Oval, Bridgetown, Barbados""",2022-12-22,England Women tour of West Indies,False,False
+1344511,India,South Africa,India,South Africa,field,India,"""Buffalo Park, East London""",2023-01-19,South Africa Women's T20I Tri-Series,False,False
+1344512,South Africa,West Indies,South Africa,South Africa,bat,South Africa,"""Buffalo Park, East London""",2023-01-21,South Africa Women's T20I Tri-Series,False,False
+1344513,India,West Indies,India,India,bat,India,"""Buffalo Park, East London""",2023-01-23,South Africa Women's T20I Tri-Series,False,False
+1345095,Pakistan,Australia,Australia,Pakistan,bat,Pakistan,"""North Sydney Oval, Sydney""",2023-01-24,Pakistan Women tour of Australia,False,False
+1344514,West Indies,South Africa,South Africa,West Indies,bat,West Indies,"""Buffalo Park, East London""",2023-01-25,South Africa Women's T20I Tri-Series,False,False
+1345096,Pakistan,Australia,Australia,Pakistan,bat,Pakistan,"""Bellerive Oval, Hobart""",2023-01-26,Pakistan Women tour of Australia,False,False
+1344516,West Indies,India,India,India,field,West Indies,"""Buffalo Park, East London""",2023-01-30,South Africa Women's T20I Tri-Series,False,False
+1344517,India,South Africa,South Africa,India,bat,India,"""Buffalo Park, East London""",2023-02-02,South Africa Women's T20I Tri-Series,False,False
+1338040,Sri Lanka,South Africa,Sri Lanka,South Africa,field,Sri Lanka,"""Newlands, Cape Town""",2023-02-10,ICC Women's T20 World Cup,True,False
+1338041,West Indies,England,England,West Indies,bat,West Indies,"""Boland Park, Paarl""",2023-02-11,ICC Women's T20 World Cup,True,False
+1338042,Australia,New Zealand,Australia,New Zealand,field,Australia,"""Boland Park, Paarl""",2023-02-11,ICC Women's T20 World Cup,True,False
+1338043,Pakistan,India,India,Pakistan,bat,Pakistan,"""Newlands, Cape Town""",2023-02-12,ICC Women's T20 World Cup,True,False
+1338044,Bangladesh,Sri Lanka,Sri Lanka,Bangladesh,bat,Bangladesh,"""Newlands, Cape Town""",2023-02-12,ICC Women's T20 World Cup,True,False
+1338045,Ireland,England,England,Ireland,bat,Ireland,"""Boland Park, Paarl""",2023-02-13,ICC Women's T20 World Cup,True,False
+1338046,South Africa,New Zealand,South Africa,South Africa,bat,South Africa,"""Boland Park, Paarl""",2023-02-13,ICC Women's T20 World Cup,True,False
+1338047,Bangladesh,Australia,Australia,Bangladesh,bat,Bangladesh,"""St George's Park, Gqeberha""",2023-02-14,ICC Women's T20 World Cup,True,False
+1338048,West Indies,India,India,West Indies,bat,West Indies,"""Newlands, Cape Town""",2023-02-15,ICC Women's T20 World Cup,True,False
+1338049,Pakistan,Ireland,Pakistan,Ireland,field,Pakistan,"""Newlands, Cape Town""",2023-02-15,ICC Women's T20 World Cup,True,False
+1338050,Sri Lanka,Australia,Australia,Australia,field,Sri Lanka,"""St George's Park, Gqeberha""",2023-02-16,ICC Women's T20 World Cup,True,False
+1338051,New Zealand,Bangladesh,New Zealand,New Zealand,bat,New Zealand,"""Newlands, Cape Town""",2023-02-17,ICC Women's T20 World Cup,True,False
+1338052,Ireland,West Indies,West Indies,Ireland,bat,Ireland,"""Newlands, Cape Town""",2023-02-17,ICC Women's T20 World Cup,True,False
+1338053,England,India,England,India,field,England,"""St George's Park, Gqeberha""",2023-02-18,ICC Women's T20 World Cup,True,False
+1338054,South Africa,Australia,Australia,Australia,field,South Africa,"""St George's Park, Gqeberha""",2023-02-18,ICC Women's T20 World Cup,True,False
+1338055,West Indies,Pakistan,West Indies,West Indies,bat,West Indies,"""Boland Park, Paarl""",2023-02-19,ICC Women's T20 World Cup,True,False
+1338056,New Zealand,Sri Lanka,New Zealand,New Zealand,bat,New Zealand,"""Boland Park, Paarl""",2023-02-19,ICC Women's T20 World Cup,True,False
+1338057,India,Ireland,India,India,bat,India,"""St George's Park, Gqeberha""",2023-02-20,ICC Women's T20 World Cup,True,False
+1338058,England,Pakistan,England,England,bat,England,"""Newlands, Cape Town""",2023-02-21,ICC Women's T20 World Cup,True,False
+1338059,Bangladesh,South Africa,South Africa,Bangladesh,bat,Bangladesh,"""Newlands, Cape Town""",2023-02-21,ICC Women's T20 World Cup,True,False
+1338060,Australia,India,Australia,Australia,bat,Australia,"""Newlands, Cape Town""",2023-02-23,ICC Women's T20 World Cup,True,False
+1338061,South Africa,England,South Africa,South Africa,bat,South Africa,"""Newlands, Cape Town""",2023-02-24,ICC Women's T20 World Cup,True,False
+1338062,Australia,South Africa,Australia,Australia,bat,Australia,"""Newlands, Cape Town""",2023-02-26,ICC Women's T20 World Cup,True,False
+1371604,Sri Lanka,Bangladesh,Bangladesh,Sri Lanka,bat,Sri Lanka,"""Sinhalese Sports Club Ground, Colombo""",2023-05-09,Bangladesh Women tour of Sri Lanka,False,False
+1371605,Bangladesh,Sri Lanka,Sri Lanka,Sri Lanka,field,Bangladesh,"""Sinhalese Sports Club Ground, Colombo""",2023-05-11,Bangladesh Women tour of Sri Lanka,False,False
+1371606,Sri Lanka,Bangladesh,Sri Lanka,Sri Lanka,bat,Sri Lanka,"""Sinhalese Sports Club Ground, Colombo""",2023-05-12,Bangladesh Women tour of Sri Lanka,False,False
+1336074,England,Australia,Australia,Australia,field,England,"""Edgbaston, Birmingham""",2023-07-01,Women's Ashes,False,False
+1378194,Ireland,West Indies,West Indies,West Indies,field,Ireland,"""Daren Sammy National Cricket Stadium, Gros Islet, St Lucia""",2023-07-04,Ireland Women tour of West Indies,False,False
+1336075,England,Australia,England,Australia,field,England,"""Kennington Oval, London""",2023-07-05,Women's Ashes,False,False
+1378195,Ireland,West Indies,West Indies,Ireland,bat,Ireland,"""Daren Sammy National Cricket Stadium, Gros Islet, St Lucia""",2023-07-06,Ireland Women tour of West Indies,False,False
+1378196,Ireland,West Indies,West Indies,Ireland,bat,Ireland,"""Daren Sammy National Cricket Stadium, Gros Islet, St Lucia""",2023-07-08,Ireland Women tour of West Indies,False,False
+1379760,Sri Lanka,New Zealand,New Zealand,New Zealand,field,Sri Lanka,"""P Sara Oval, Colombo""",2023-07-08,New Zealand Women tour of Sri Lanka,False,False
+1336076,Australia,England,England,England,field,Australia,"""Lord's, London""",2023-07-08,Women's Ashes,False,False
+1382163,Bangladesh,India,India,India,field,Bangladesh,"""Shere Bangla National Stadium, Mirpur""",2023-07-09,India Women tour of Bangladesh,False,False
+1379761,Sri Lanka,New Zealand,New Zealand,New Zealand,field,Sri Lanka,"""P Sara Oval, Colombo""",2023-07-10,New Zealand Women tour of Sri Lanka,False,False
+1382164,India,Bangladesh,India,India,bat,India,"""Shere Bangla National Stadium, Mirpur""",2023-07-11,India Women tour of Bangladesh,False,False
+1379762,New Zealand,Sri Lanka,Sri Lanka,Sri Lanka,field,New Zealand,"""P Sara Oval, Colombo""",2023-07-12,New Zealand Women tour of Sri Lanka,False,False
+1384547,Scotland,Netherlands,Scotland,Netherlands,field,Scotland,"""Sportpark Maarschalkerweerd, Utrecht""",2023-07-12,Netherlands Women's T20I Tri-Series,False,False
+1382165,India,Bangladesh,Bangladesh,India,bat,India,"""Shere Bangla National Stadium, Mirpur""",2023-07-13,India Women tour of Bangladesh,False,False
+1384550,Scotland,Netherlands,Netherlands,Netherlands,field,Scotland,"""Sportpark Maarschalkerweerd, Utrecht""",2023-07-15,Netherlands Women's T20I Tri-Series,False,False
+1378200,Netherlands,Ireland,Ireland,Ireland,field,Netherlands,"""VRA Ground, Amstelveen""",2023-08-14,Ireland Women tour of Netherlands,False,False
+1378201,Ireland,Netherlands,Ireland,Netherlands,field,Ireland,"""VRA Ground, Amstelveen""",2023-08-16,Ireland Women tour of Netherlands,False,False
+1378202,Netherlands,Ireland,Ireland,Netherlands,bat,Netherlands,"""VRA Ground, Amstelveen""",2023-08-17,Ireland Women tour of Netherlands,False,False
+1336080,England,Sri Lanka,England,Sri Lanka,field,England,"""County Ground, Hove""",2023-08-31,Sri Lanka Women tour of England,False,False
+1382160,South Africa,Pakistan,Pakistan,Pakistan,field,South Africa,"""National Stadium, Karachi""",2023-09-01,South Africa Women tour of Pakistan,False,False
+1336081,England,Sri Lanka,Sri Lanka,Sri Lanka,field,England,"""County Ground, Chelmsford""",2023-09-02,Sri Lanka Women tour of England,False,False
+1382161,South Africa,Pakistan,Pakistan,Pakistan,field,South Africa,"""National Stadium, Karachi""",2023-09-03,South Africa Women tour of Pakistan,False,False
+1382162,Pakistan,South Africa,Pakistan,South Africa,field,Pakistan,"""National Stadium, Karachi""",2023-09-04,South Africa Women tour of Pakistan,False,False
+1336082,England,Sri Lanka,Sri Lanka,Sri Lanka,field,England,"""County Ground, Derby""",2023-09-06,Sri Lanka Women tour of England,False,False
+1395028,Netherlands,Scotland,Netherlands,Scotland,field,Netherlands,"""Desert Springs Cricket Ground, Almeria""",2023-09-07,ICC Women's T20 World Cup Europe Region Qualifier,False,False
+1395035,Scotland,Netherlands,Scotland,Netherlands,field,Scotland,"""Desert Springs Cricket Ground, Almeria""",2023-09-11,ICC Women's T20 World Cup Europe Region Qualifier,False,False
+1399060,Pakistan,Sri Lanka,Sri Lanka,Sri Lanka,field,Pakistan,Zhejiang University of Technology Cricket Field,2023-09-24,Asian Games Women's Cricket Competition,False,False
+1399059,Bangladesh,India,India,Bangladesh,bat,Bangladesh,Zhejiang University of Technology Cricket Field,2023-09-24,Asian Games Women's Cricket Competition,False,False
+1399061,Pakistan,Bangladesh,Bangladesh,Bangladesh,field,Pakistan,Zhejiang University of Technology Cricket Field,2023-09-25,Asian Games Women's Cricket Competition,False,False
+1399062,India,Sri Lanka,India,India,bat,India,Zhejiang University of Technology Cricket Field,2023-09-25,Asian Games Women's Cricket Competition,False,False
+1375863,West Indies,Australia,Australia,Australia,field,West Indies,"""North Sydney Oval, Sydney""",2023-10-01,West Indies Women tour of Australia,False,False
+1375864,Australia,West Indies,West Indies,West Indies,field,Australia,"""North Sydney Oval, Sydney""",2023-10-02,West Indies Women tour of Australia,False,False
+1375865,Australia,West Indies,Australia,West Indies,field,Australia,"""Allan Border Field, Brisbane""",2023-10-05,West Indies Women tour of Australia,False,False
+1392354,South Africa,New Zealand,New Zealand,New Zealand,field,South Africa,"""Willowmoore Park, Benoni""",2023-10-14,New Zealand Women tour of South Africa,False,False
+1392355,South Africa,New Zealand,South Africa,New Zealand,field,South Africa,"""Willowmoore Park, Benoni""",2023-10-15,New Zealand Women tour of South Africa,False,False
+1403686,Scotland,Ireland,Ireland,Scotland,bat,Scotland,"""Desert Springs Cricket Ground, Almeria""",2023-10-23,Ireland Women v Scotland Women,False,False
+1403687,Ireland,Scotland,Scotland,Ireland,bat,Ireland,"""Desert Springs Cricket Ground, Almeria""",2023-10-24,Ireland Women v Scotland Women,False,False
+1405121,Pakistan,Bangladesh,Bangladesh,Bangladesh,field,Pakistan,"""Zahur Ahmed Chowdhury Stadium, Chattogram""",2023-10-25,Pakistan Women tour of Bangladesh,False,False
+1405122,Bangladesh,Pakistan,Bangladesh,Pakistan,field,Bangladesh,"""Zahur Ahmed Chowdhury Stadium, Chattogram""",2023-10-27,Pakistan Women tour of Bangladesh,False,False
+1405123,Pakistan,Bangladesh,Pakistan,Bangladesh,field,Pakistan,"""Zahur Ahmed Chowdhury Stadium, Chattogram""",2023-10-29,Pakistan Women tour of Bangladesh,False,False
+1398254,Bangladesh,South Africa,Bangladesh,Bangladesh,bat,Bangladesh,"""Willowmoore Park, Benoni""",2023-12-03,Bangladesh Women tour of South Africa,False,False
+1388196,New Zealand,Pakistan,Pakistan,New Zealand,bat,New Zealand,"""University Oval, Dunedin""",2023-12-03,Pakistan Women tour of New Zealand,False,False
+1388197,Pakistan,New Zealand,Pakistan,New Zealand,field,Pakistan,"""University Oval, Dunedin""",2023-12-05,Pakistan Women tour of New Zealand,False,False
+1406073,England,India,England,India,field,England,"""Wankhede Stadium, Mumbai""",2023-12-06,England Women tour of India,False,False
+1398256,Bangladesh,South Africa,South Africa,South Africa,field,Bangladesh,"""Diamond Oval, Kimberley""",2023-12-08,Bangladesh Women tour of South Africa,False,False
+1388198,Pakistan,New Zealand,New Zealand,New Zealand,field,Pakistan,"""John Davies Oval, Queenstown""",2023-12-09,Pakistan Women tour of New Zealand,False,False
+1406074,India,England,England,England,field,India,"""Wankhede Stadium, Mumbai""",2023-12-09,England Women tour of India,False,False
+1406075,England,India,India,England,bat,England,"""Wankhede Stadium, Mumbai""",2023-12-10,England Women tour of India,False,False
+1406081,Australia,India,India,India,field,Australia,"""Dr DY Patil Sports Academy, Mumbai""",2024-01-05,Australia Women tour of India,False,False
+1406082,India,Australia,Australia,Australia,field,India,"""Dr DY Patil Sports Academy, Mumbai""",2024-01-07,Australia Women tour of India,False,False
+1406083,India,Australia,Australia,Australia,field,India,"""Dr DY Patil Sports Academy, Mumbai""",2024-01-09,Australia Women tour of India,False,False
+1375869,South Africa,Australia,Australia,Australia,field,South Africa,"""Manuka Oval, Canberra""",2024-01-27,South Africa Women tour of Australia,False,False
+1375870,Australia,South Africa,South Africa,Australia,bat,Australia,"""Manuka Oval, Canberra""",2024-01-28,South Africa Women tour of Australia,False,False
+1375871,South Africa,Australia,Australia,Australia,field,South Africa,"""Bellerive Oval, Hobart""",2024-01-30,South Africa Women tour of Australia,False,False
+1388202,England,New Zealand,England,New Zealand,field,England,"""University Oval, Dunedin""",2024-03-19,England Women tour of New Zealand,False,False
+1388203,England,New Zealand,England,New Zealand,field,England,"""Saxton Oval, Nelson""",2024-03-22,England Women tour of New Zealand,False,False
+1388204,New Zealand,England,New Zealand,New Zealand,bat,New Zealand,"""Saxton Oval, Nelson""",2024-03-24,England Women tour of New Zealand,False,False
+1398261,South Africa,Sri Lanka,South Africa,Sri Lanka,field,South Africa,"""Willowmoore Park, Benoni""",2024-03-27,Sri Lanka Women tour of South Africa,False,False
+1388205,England,New Zealand,England,New Zealand,field,England,"""Basin Reserve, Wellington""",2024-03-27,England Women tour of New Zealand,False,False
+1388206,New Zealand,England,England,New Zealand,bat,New Zealand,"""Basin Reserve, Wellington""",2024-03-29,England Women tour of New Zealand,False,False
+1398262,South Africa,Sri Lanka,Sri Lanka,South Africa,bat,South Africa,"""Senwes Park, Potchefstroom""",2024-03-30,Sri Lanka Women tour of South Africa,False,False
+1425064,Bangladesh,Australia,Australia,Bangladesh,bat,Bangladesh,"""Shere Bangla National Stadium, Mirpur""",2024-03-31,Australia Women tour of Bangladesh,False,False
+1425065,Australia,Bangladesh,Australia,Australia,bat,Australia,"""Shere Bangla National Stadium, Mirpur""",2024-04-02,Australia Women tour of Bangladesh,False,False
+1398263,South Africa,Sri Lanka,Sri Lanka,Sri Lanka,field,South Africa,"""Buffalo Park, East London""",2024-04-03,Sri Lanka Women tour of South Africa,False,False
+1425066,Australia,Bangladesh,Australia,Australia,bat,Australia,"""Shere Bangla National Stadium, Mirpur""",2024-04-04,Australia Women tour of Bangladesh,False,False
+1426084,West Indies,Pakistan,West Indies,West Indies,bat,West Indies,"""National Stadium, Karachi""",2024-04-26,West Indies Women tour of Pakistan,False,False
+1425645,Scotland,Sri Lanka,Sri Lanka,Sri Lanka,field,Scotland,"""Zayed Cricket Stadium, Abu Dhabi""",2024-04-27,ICC Women's T20 World Cup Qualifier,False,False
+1426085,Pakistan,West Indies,West Indies,Pakistan,bat,Pakistan,"""National Stadium, Karachi""",2024-04-28,West Indies Women tour of Pakistan,False,False
+1429393,India,Bangladesh,India,India,bat,India,Sylhet International Cricket Stadium,2024-04-28,India Women tour of Bangladesh,False,False
+1426086,West Indies,Pakistan,West Indies,Pakistan,field,West Indies,"""National Stadium, Karachi""",2024-04-30,West Indies Women tour of Pakistan,False,False
+1429394,Bangladesh,India,India,Bangladesh,bat,Bangladesh,Sylhet International Cricket Stadium,2024-04-30,India Women tour of Bangladesh,False,False
+1429395,Bangladesh,India,India,India,field,Bangladesh,Sylhet International Cricket Stadium,2024-05-02,India Women tour of Bangladesh,False,False
+1426087,West Indies,Pakistan,Pakistan,West Indies,bat,West Indies,"""National Stadium, Karachi""",2024-05-02,West Indies Women tour of Pakistan,False,False
+1425657,Ireland,Netherlands,Ireland,Ireland,bat,Ireland,"""Zayed Cricket Stadium, Abu Dhabi""",2024-05-03,ICC Women's T20 World Cup Qualifier,False,False
+1426088,Pakistan,West Indies,West Indies,West Indies,field,Pakistan,"""National Stadium, Karachi""",2024-05-03,West Indies Women tour of Pakistan,False,False
+1425658,Ireland,Scotland,Scotland,Ireland,bat,Ireland,"""Zayed Cricket Stadium, Abu Dhabi""",2024-05-05,ICC Women's T20 World Cup Qualifier,False,False
+1429396,India,Bangladesh,India,Bangladesh,field,India,Sylhet International Cricket Stadium,2024-05-06,India Women tour of Bangladesh,False,False
+1425660,Sri Lanka,Scotland,Sri Lanka,Scotland,field,Sri Lanka,"""Zayed Cricket Stadium, Abu Dhabi""",2024-05-07,ICC Women's T20 World Cup Qualifier,False,False
+1429397,India,Bangladesh,India,India,bat,India,Sylhet International Cricket Stadium,2024-05-09,India Women tour of Bangladesh,False,False
+1398268,England,Pakistan,England,Pakistan,field,England,"""Edgbaston, Birmingham""",2024-05-11,Pakistan Women tour of England,False,False
+1398269,England,Pakistan,England,England,bat,England,"""County Ground, Northampton""",2024-05-17,Pakistan Women tour of England,False,False
+1398270,England,Pakistan,England,England,bat,England,"""Headingley, Leeds""",2024-05-19,Pakistan Women tour of England,False,False
+1436889,West Indies,Sri Lanka,Sri Lanka,Sri Lanka,field,West Indies,"""Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa, Hambantota""",2024-06-24,West Indies Women tour of Sri Lanka,False,False
+1436890,Sri Lanka,West Indies,West Indies,West Indies,field,Sri Lanka,"""Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa, Hambantota""",2024-06-26,West Indies Women tour of Sri Lanka,False,False
+1436891,Sri Lanka,West Indies,West Indies,West Indies,field,Sri Lanka,"""Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa, Hambantota""",2024-06-28,West Indies Women tour of Sri Lanka,False,False
+1434291,South Africa,India,South Africa,India,field,South Africa,"""MA Chidambaram Stadium, Chepauk, Chennai""",2024-07-05,South Africa Women tour of India,False,False
+1398277,England,New Zealand,England,New Zealand,field,England,"""The Rose Bowl, Southampton""",2024-07-06,New Zealand Women tour of England,False,False
+1434293,South Africa,India,India,India,field,South Africa,"""MA Chidambaram Stadium, Chepauk, Chennai""",2024-07-09,South Africa Women tour of India,False,False
+1398278,England,New Zealand,England,New Zealand,field,England,"""County Ground, Hove""",2024-07-09,New Zealand Women tour of England,False,False
+1398279,New Zealand,England,England,England,field,New Zealand,"""St Lawrence Ground, Canterbury""",2024-07-11,New Zealand Women tour of England,False,False
+1398280,New Zealand,England,England,New Zealand,bat,New Zealand,"""Kennington Oval, London""",2024-07-13,New Zealand Women tour of England,False,False
+1398281,England,New Zealand,England,New Zealand,field,England,"""Lord's, London""",2024-07-17,New Zealand Women tour of England,False,False
+1426757,Pakistan,India,India,Pakistan,bat,Pakistan,Rangiri Dambulla International Stadium,2024-07-19,Women's Asia Cup,False,False
+1426759,Bangladesh,Sri Lanka,Sri Lanka,Bangladesh,bat,Bangladesh,Rangiri Dambulla International Stadium,2024-07-20,Women's Asia Cup,False,False
+1426769,Pakistan,Sri Lanka,Sri Lanka,Sri Lanka,field,Pakistan,Rangiri Dambulla International Stadium,2024-07-26,Women's Asia Cup,False,False
+1426768,Bangladesh,India,India,Bangladesh,bat,Bangladesh,Rangiri Dambulla International Stadium,2024-07-26,Women's Asia Cup,False,False
+1426770,India,Sri Lanka,Sri Lanka,India,bat,India,Rangiri Dambulla International Stadium,2024-07-28,Women's Asia Cup,False,False
+1430812,Ireland,Sri Lanka,Sri Lanka,Sri Lanka,field,Ireland,"""Pembroke Cricket Club, Sandymount, Dublin""",2024-08-11,Sri Lanka Women tour of Ireland,False,False
+1430813,Ireland,Sri Lanka,Ireland,Ireland,bat,Ireland,"""Pembroke Cricket Club, Sandymount, Dublin""",2024-08-13,Sri Lanka Women tour of Ireland,False,False
+1444551,Scotland,Netherlands,Scotland,Netherlands,field,Scotland,"""VRA Ground, Amstelveen""",2024-08-16,Netherlands Women's T20I Tri-Series,False,False
+1430820,England,Ireland,England,Ireland,field,England,"""Castle Avenue, Dublin""",2024-09-14,England Women tour of Ireland,False,False
+1430821,England,Ireland,Ireland,Ireland,field,England,"""Castle Avenue, Dublin""",2024-09-15,England Women tour of Ireland,False,False
+1449011,South Africa,Pakistan,South Africa,Pakistan,field,South Africa,Multan Cricket Stadium,2024-09-16,South Africa Women tour of Pakistan,False,False
+1449012,Pakistan,South Africa,Pakistan,South Africa,field,Pakistan,Multan Cricket Stadium,2024-09-18,South Africa Women tour of Pakistan,False,False
+1426617,New Zealand,Australia,Australia,New Zealand,bat,New Zealand,"""Great Barrier Reef Arena, Mackay""",2024-09-19,New Zealand Women tour of Australia,False,False
+1449013,Pakistan,South Africa,South Africa,South Africa,field,Pakistan,Multan Cricket Stadium,2024-09-20,South Africa Women tour of Pakistan,False,False
+1426618,Australia,New Zealand,Australia,Australia,bat,Australia,"""Great Barrier Reef Arena, Mackay""",2024-09-22,New Zealand Women tour of Australia,False,False
+1426619,New Zealand,Australia,Australia,New Zealand,bat,New Zealand,"""Allan Border Field, Brisbane""",2024-09-24,New Zealand Women tour of Australia,False,False
+1432423,Pakistan,Sri Lanka,Pakistan,Pakistan,bat,Pakistan,Sharjah Cricket Stadium,2024-10-03,ICC Women's T20 World Cup,False,True
+1432422,Bangladesh,Scotland,Bangladesh,Bangladesh,bat,Bangladesh,Sharjah Cricket Stadium,2024-10-03,ICC Women's T20 World Cup,False,True
+1432425,New Zealand,India,New Zealand,New Zealand,bat,New Zealand,Dubai International Cricket Stadium,2024-10-04,ICC Women's T20 World Cup,False,True
+1432424,West Indies,South Africa,South Africa,South Africa,field,West Indies,Dubai International Cricket Stadium,2024-10-04,ICC Women's T20 World Cup,False,True
+1432427,England,Bangladesh,England,England,bat,England,Sharjah Cricket Stadium,2024-10-05,ICC Women's T20 World Cup,False,True
+1432426,Sri Lanka,Australia,Australia,Sri Lanka,bat,Sri Lanka,Sharjah Cricket Stadium,2024-10-05,ICC Women's T20 World Cup,False,True
+1432428,Pakistan,India,India,Pakistan,bat,Pakistan,Dubai International Cricket Stadium,2024-10-06,ICC Women's T20 World Cup,False,True
+1432429,Scotland,West Indies,West Indies,Scotland,bat,Scotland,Dubai International Cricket Stadium,2024-10-06,ICC Women's T20 World Cup,False,True
+1432430,South Africa,England,England,South Africa,bat,South Africa,Sharjah Cricket Stadium,2024-10-07,ICC Women's T20 World Cup,False,True
+1432431,Australia,New Zealand,Australia,Australia,bat,Australia,Sharjah Cricket Stadium,2024-10-08,ICC Women's T20 World Cup,False,True
+1432432,South Africa,Scotland,South Africa,South Africa,bat,South Africa,Dubai International Cricket Stadium,2024-10-09,ICC Women's T20 World Cup,False,True
+1432433,India,Sri Lanka,India,India,bat,India,Dubai International Cricket Stadium,2024-10-09,ICC Women's T20 World Cup,False,True
+1432434,Bangladesh,West Indies,West Indies,West Indies,field,Bangladesh,Sharjah Cricket Stadium,2024-10-10,ICC Women's T20 World Cup,False,True
+1432435,Pakistan,Australia,Australia,Australia,field,Pakistan,Dubai International Cricket Stadium,2024-10-11,ICC Women's T20 World Cup,False,True
+1432437,Bangladesh,South Africa,South Africa,Bangladesh,bat,Bangladesh,Dubai International Cricket Stadium,2024-10-12,ICC Women's T20 World Cup,False,True
+1432436,Sri Lanka,New Zealand,New Zealand,Sri Lanka,bat,Sri Lanka,Sharjah Cricket Stadium,2024-10-12,ICC Women's T20 World Cup,False,True
+1432439,Australia,India,Australia,Australia,bat,Australia,Sharjah Cricket Stadium,2024-10-13,ICC Women's T20 World Cup,False,True
+1432438,Scotland,England,England,Scotland,bat,Scotland,Sharjah Cricket Stadium,2024-10-13,ICC Women's T20 World Cup,False,True
+1432440,New Zealand,Pakistan,New Zealand,New Zealand,bat,New Zealand,Dubai International Cricket Stadium,2024-10-14,ICC Women's T20 World Cup,False,True
+1432441,England,West Indies,West Indies,West Indies,field,England,Dubai International Cricket Stadium,2024-10-15,ICC Women's T20 World Cup,False,True
+1432442,Australia,South Africa,South Africa,South Africa,field,Australia,Dubai International Cricket Stadium,2024-10-17,ICC Women's T20 World Cup,False,True
+1432443,New Zealand,West Indies,New Zealand,New Zealand,bat,New Zealand,Sharjah Cricket Stadium,2024-10-18,ICC Women's T20 World Cup,False,True
+1432444,New Zealand,South Africa,New Zealand,South Africa,field,New Zealand,Dubai International Cricket Stadium,2024-10-20,ICC Women's T20 World Cup,False,True
+1432225,South Africa,England,England,England,field,South Africa,"""Buffalo Park, East London""",2024-11-24,England Women tour of South Africa,False,False
+1432226,England,South Africa,England,South Africa,field,England,"""Willowmoore Park, Benoni""",2024-11-27,England Women tour of South Africa,False,False
+1432227,South Africa,England,England,England,field,South Africa,"""SuperSport Park, Centurion""",2024-11-30,England Women tour of South Africa,False,False
+1458414,Ireland,Bangladesh,Ireland,Ireland,bat,Ireland,Sylhet Stadium,2024-12-05,Ireland Women tour of Bangladesh,False,False
+1458415,Ireland,Bangladesh,Ireland,Ireland,bat,Ireland,Sylhet Stadium,2024-12-07,Ireland Women tour of Bangladesh,False,False
+1458416,Bangladesh,Ireland,Ireland,Ireland,field,Bangladesh,Sylhet Stadium,2024-12-09,Ireland Women tour of Bangladesh,False,False
+1459891,India,West Indies,India,West Indies,field,India,"""Dr DY Patil Sports Academy, Navi Mumbai""",2024-12-15,West Indies Women tour of India,False,False
+1459892,India,West Indies,West Indies,West Indies,field,India,"""Dr DY Patil Sports Academy, Navi Mumbai""",2024-12-17,West Indies Women tour of India,False,False
+1459893,India,West Indies,India,West Indies,field,India,"""Dr DY Patil Sports Academy, Navi Mumbai""",2024-12-19,West Indies Women tour of India,False,False
+1426626,Australia,England,Australia,England,field,Australia,Sydney Cricket Ground,2025-01-20,Women's Ashes,False,False
+1426627,Australia,England,Australia,England,field,Australia,"""Manuka Oval, Canberra""",2025-01-23,Women's Ashes,False,False
+1426628,Australia,England,Australia,Australia,bat,Australia,Adelaide Oval,2025-01-25,Women's Ashes,False,False
+1468402,Bangladesh,West Indies,West Indies,Bangladesh,bat,Bangladesh,"""Warner Park, Basseterre, St Kitts""",2025-01-27,Bangladesh Women tour of West Indies,False,False
+1468403,West Indies,Bangladesh,West Indies,Bangladesh,field,West Indies,"""Warner Park, Basseterre, St Kitts""",2025-01-29,Bangladesh Women tour of West Indies,False,False
+1468404,Bangladesh,West Indies,West Indies,West Indies,field,Bangladesh,"""Warner Park, Basseterre, St Kitts""",2025-01-31,Bangladesh Women tour of West Indies,False,False
+1443571,New Zealand,Sri Lanka,Sri Lanka,New Zealand,bat,New Zealand,"""Hagley Oval, Christchurch""",2025-03-14,Sri Lanka Women tour of New Zealand,False,False
+1443572,Sri Lanka,New Zealand,New Zealand,New Zealand,field,Sri Lanka,"""Hagley Oval, Christchurch""",2025-03-16,Sri Lanka Women tour of New Zealand,False,False
+1443574,New Zealand,Australia,Australia,New Zealand,bat,New Zealand,"""Eden Park, Auckland""",2025-03-21,Australia Women tour of New Zealand,False,False
+1443575,Australia,New Zealand,Australia,Australia,bat,Australia,"""Bay Oval, Mount Maunganui""",2025-03-23,Australia Women tour of New Zealand,False,False
+1443576,Australia,New Zealand,Australia,New Zealand,field,Australia,"""Sky Stadium, Wellington""",2025-03-26,Australia Women tour of New Zealand,False,False
+1448391,West Indies,England,England,England,field,West Indies,"""St Lawrence Ground, Canterbury""",2025-05-21,West Indies Women tour of England,False,False
+1448392,West Indies,England,England,England,field,West Indies,"""County Ground, Hove""",2025-05-23,West Indies Women tour of England,False,False
+1448393,England,West Indies,England,West Indies,field,England,"""County Ground, Chelmsford""",2025-05-26,West Indies Women tour of England,False,False
+1472537,South Africa,West Indies,South Africa,West Indies,field,South Africa,"""Three Ws Oval, Cave Hill, Barbados""",2025-06-20,South Africa Women tour of West Indies,False,False
+1472538,South Africa,West Indies,West Indies,West Indies,field,South Africa,"""Three Ws Oval, Cave Hill, Barbados""",2025-06-22,South Africa Women tour of West Indies,False,False
+1472539,South Africa,West Indies,West Indies,South Africa,bat,South Africa,"""Three Ws Oval, Cave Hill, Barbados""",2025-06-23,South Africa Women tour of West Indies,False,False
+1448397,India,England,India,England,field,India,"""Trent Bridge, Nottingham""",2025-06-28,India Women tour of England,False,False
+1448398,India,England,India,England,field,India,"""County Ground, Bristol""",2025-07-01,India Women tour of England,False,False
+1448399,England,India,England,England,bat,England,"""Kennington Oval, London""",2025-07-04,India Women tour of England,False,False
+1448400,England,India,India,England,bat,England,"""Old Trafford, Manchester""",2025-07-09,India Women tour of England,False,False
+1448401,India,England,England,England,field,India,"""Edgbaston, Birmingham""",2025-07-12,India Women tour of England,False,False
+1476992,Ireland,Pakistan,Ireland,Pakistan,field,Ireland,"""Clontarf Cricket Club Ground, Dublin""",2025-08-06,Pakistan Women tour of Ireland,False,False
+1476993,Pakistan,Ireland,Ireland,Pakistan,bat,Pakistan,"""Clontarf Cricket Club Ground, Dublin""",2025-08-08,Pakistan Women tour of Ireland,False,False
+1476994,Ireland,Pakistan,Pakistan,Ireland,bat,Ireland,"""Clontarf Cricket Club Ground, Dublin""",2025-08-10,Pakistan Women tour of Ireland,False,False
+1498208,Netherlands,Ireland,Ireland,Netherlands,bat,Netherlands,"""Hazelaarweg, Rotterdam""",2025-08-21,ICC Women's T20 World Cup Europe Division 1 Qualifier,False,False
+1498215,Netherlands,Ireland,Ireland,Netherlands,bat,Netherlands,"""Hazelaarweg, Rotterdam""",2025-08-26,ICC Women's T20 World Cup Europe Division 1 Qualifier,False,False
+1510308,Netherlands,Scotland,Netherlands,Netherlands,bat,Netherlands,"""Terdthai Cricket Ground, Bangkok""",2025-11-28,ICC Women's Emerging Nations Trophy,False,False
+1477591,South Africa,Ireland,South Africa,South Africa,bat,South Africa,"""Newlands, Cape Town""",2025-12-05,Ireland Women tour of South Africa,False,False
+1477592,South Africa,Ireland,South Africa,South Africa,bat,South Africa,"""Boland Park, Paarl""",2025-12-07,Ireland Women tour of South Africa,False,False
+1513735,Sri Lanka,India,India,India,field,Sri Lanka,"""Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium, Visakhapatnam""",2025-12-21,Sri Lanka Women tour of India,False,False
+1513736,Sri Lanka,India,India,India,field,Sri Lanka,"""Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium, Visakhapatnam""",2025-12-23,Sri Lanka Women tour of India,False,False
+1513737,Sri Lanka,India,India,India,field,Sri Lanka,"""Greenfield International Stadium, Thiruvananthapuram""",2025-12-26,Sri Lanka Women tour of India,False,False
+1513738,India,Sri Lanka,India,Sri Lanka,field,India,"""Greenfield International Stadium, Thiruvananthapuram""",2025-12-28,Sri Lanka Women tour of India,False,False
+1513739,India,Sri Lanka,India,Sri Lanka,field,India,"""Greenfield International Stadium, Thiruvananthapuram""",2025-12-30,Sri Lanka Women tour of India,False,False
+1515214,Netherlands,Scotland,Netherlands,Netherlands,bat,Netherlands,"""Tribhuvan University International Cricket Ground, Kirtipur""",2026-01-20,Women's T20 World Cup Qualifier,False,False
+1515223,Bangladesh,Ireland,Bangladesh,Bangladesh,bat,Bangladesh,Mulpani Cricket Ground,2026-01-24,Women's T20 World Cup Qualifier,False,False
+1515228,Scotland,Ireland,Scotland,Ireland,field,Scotland,"""Tribhuvan University International Cricket Ground, Kirtipur""",2026-01-28,Women's T20 World Cup Qualifier,False,False
+1515232,Ireland,Netherlands,Ireland,Netherlands,field,Ireland,Mulpani Cricket Ground,2026-01-30,Women's T20 World Cup Qualifier,False,False
+1515231,Bangladesh,Scotland,Bangladesh,Bangladesh,bat,Bangladesh,"""Tribhuvan University International Cricket Ground, Kirtipur""",2026-01-30,Women's T20 World Cup Qualifier,False,False
+1515235,Netherlands,Bangladesh,Bangladesh,Netherlands,bat,Netherlands,Mulpani Cricket Ground,2026-02-01,Women's T20 World Cup Qualifier,False,False
+1477597,Pakistan,South Africa,South Africa,Pakistan,bat,Pakistan,"""Senwes Park, Potchefstroom""",2026-02-10,Pakistan Women tour of South Africa,False,False
+1477598,Pakistan,South Africa,South Africa,South Africa,field,Pakistan,"""Willowmoore Park, Benoni""",2026-02-13,Pakistan Women tour of South Africa,False,False
+1478912,Australia,India,India,India,field,Australia,Sydney Cricket Ground,2026-02-15,India Women tour of Australia,False,False
+1477599,Pakistan,South Africa,Pakistan,Pakistan,bat,Pakistan,"""Willowmoore Park, Benoni""",2026-02-16,Pakistan Women tour of South Africa,False,False
+1478913,Australia,India,Australia,India,field,Australia,"""Manuka Oval, Canberra""",2026-02-19,India Women tour of Australia,False,False
+1478914,India,Australia,India,India,bat,India,Adelaide Oval,2026-02-21,India Women tour of Australia,False,False
+1523982,West Indies,Sri Lanka,Sri Lanka,Sri Lanka,field,West Indies,"""National Cricket Stadium, St George's, Grenada""",2026-03-01,Sri Lanka Women tour of West Indies,False,False
+1523983,West Indies,Sri Lanka,Sri Lanka,Sri Lanka,field,West Indies,"""National Cricket Stadium, St George's, Grenada""",2026-03-03,Sri Lanka Women tour of West Indies,False,False
+1491705,New Zealand,South Africa,New Zealand,New Zealand,bat,New Zealand,"""Bay Oval, Mount Maunganui""",2026-03-15,South Africa Women tour of New Zealand,False,False
+1491706,South Africa,New Zealand,South Africa,South Africa,bat,South Africa,"""Seddon Park, Hamilton""",2026-03-17,South Africa Women tour of New Zealand,False,False
+1526564,Australia,West Indies,Australia,Australia,bat,Australia,"""Arnos Vale Ground, Kingstown, St Vincent""",2026-03-19,Australia Women tour of West Indies,False,False
+1491707,South Africa,New Zealand,New Zealand,South Africa,bat,South Africa,"""Eden Park, Auckland""",2026-03-20,South Africa Women tour of New Zealand,False,False
+1526565,Australia,West Indies,Australia,Australia,bat,Australia,"""Arnos Vale Ground, Kingstown, St Vincent""",2026-03-21,Australia Women tour of West Indies,False,False
+1491708,South Africa,New Zealand,New Zealand,South Africa,bat,South Africa,"""Sky Stadium, Wellington""",2026-03-22,South Africa Women tour of New Zealand,False,False
+1526566,Australia,West Indies,Australia,West Indies,field,Australia,"""Arnos Vale Ground, Kingstown, St Vincent""",2026-03-23,Australia Women tour of West Indies,False,False
+1491709,New Zealand,South Africa,New Zealand,South Africa,field,New Zealand,"""Hagley Oval, Christchurch""",2026-03-25,South Africa Women tour of New Zealand,False,False
+1527253,India,South Africa,South Africa,South Africa,field,India,"""Kingsmead, Durban""",2026-04-17,India Women tour of South Africa,False,False
+1527254,India,South Africa,South Africa,South Africa,field,India,"""Kingsmead, Durban""",2026-04-19,India Women tour of South Africa,False,False
+1527255,India,South Africa,South Africa,South Africa,field,India,"""The Wanderers Stadium, Johannesburg""",2026-04-22,India Women tour of South Africa,False,False
+1527256,India,South Africa,India,South Africa,field,India,"""The Wanderers Stadium, Johannesburg""",2026-04-25,India Women tour of South Africa,False,False
+1527257,South Africa,India,South Africa,South Africa,bat,South Africa,"""Willowmoore Park, Benoni""",2026-04-27,India Women tour of South Africa,False,False
+1528282,Sri Lanka,Bangladesh,Sri Lanka,Bangladesh,field,Sri Lanka,Sylhet International Cricket Stadium,2026-04-28,Sri Lanka Women tour of Bangladesh,False,False
+1528283,Sri Lanka,Bangladesh,Sri Lanka,Bangladesh,field,Sri Lanka,Sylhet International Cricket Stadium,2026-04-30,Sri Lanka Women tour of Bangladesh,False,False
+1528284,Sri Lanka,Bangladesh,Sri Lanka,Bangladesh,field,Sri Lanka,Sylhet International Cricket Stadium,2026-05-02,Sri Lanka Women tour of Bangladesh,False,False
+1496545,New Zealand,England,England,England,field,New Zealand,"""County Ground, Derby""",2026-05-20,New Zealand Women tour of England,False,False
+1496546,New Zealand,England,New Zealand,New Zealand,bat,New Zealand,"""St Lawrence Ground, Canterbury""",2026-05-23,New Zealand Women tour of England,False,False
+1496547,New Zealand,England,England,New Zealand,bat,New Zealand,"""County Ground, Hove""",2026-05-25,New Zealand Women tour of England,False,False
+1496548,India,England,India,England,field,India,"""County Ground, Chelmsford""",2026-05-28,India Women tour of England,False,False
+1528538,Ireland,West Indies,West Indies,West Indies,field,Ireland,"""Castle Avenue, Dublin""",2026-05-28,Ireland Tri-Nation Women's T20I Series,False,False
+1535591,Netherlands,Scotland,Scotland,Netherlands,bat,Netherlands,"""Grange Cricket Club Ground, Raeburn Place, Edinburgh""",2026-05-28,Scotland Women's T20I Tri-Series,False,False
+1528539,West Indies,Pakistan,West Indies,West Indies,bat,West Indies,"""Castle Avenue, Dublin""",2026-05-29,Ireland Tri-Nation Women's T20I Series,False,False
+1535592,Bangladesh,Scotland,Scotland,Bangladesh,bat,Bangladesh,"""Grange Cricket Club Ground, Raeburn Place, Edinburgh""",2026-05-30,Scotland Women's T20I Tri-Series,False,False
+1496549,England,India,England,England,bat,England,"""County Ground, Bristol""",2026-05-30,India Women tour of England,False,False
+1528540,Pakistan,Ireland,Ireland,Pakistan,bat,Pakistan,"""Castle Avenue, Dublin""",2026-05-31,Ireland Tri-Nation Women's T20I Series,False,False
+1535593,Netherlands,Bangladesh,Netherlands,Bangladesh,field,Netherlands,"""Grange Cricket Club Ground, Raeburn Place, Edinburgh""",2026-05-31,Scotland Women's T20I Tri-Series,False,False
+1528541,West Indies,Ireland,Ireland,West Indies,bat,West Indies,"""Castle Avenue, Dublin""",2026-06-01,Ireland Tri-Nation Women's T20I Series,False,False
+1496550,India,England,England,England,field,India,"""The Cooper Associates County Ground, Taunton""",2026-06-02,India Women tour of England,False,False
+1535594,Bangladesh,Scotland,Bangladesh,Bangladesh,bat,Bangladesh,"""Grange Cricket Club Ground, Raeburn Place, Edinburgh""",2026-06-02,Scotland Women's T20I Tri-Series,False,False

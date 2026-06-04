@@ -1,0 +1,31 @@
+match,date,group,team_a,team_b,venue,predicted_winner,loser,prob_a,prob_b,win_prob,confidence
+1,Jun 12,B,England,Sri Lanka,"Edgbaston, Birmingham",England,Sri Lanka,0.687,0.313,0.687,MED
+2,Jun 13,A,Scotland,Ireland,"Old Trafford, Manchester",Ireland,Scotland,0.106,0.894,0.894,HIGH
+3,Jun 13,A,Australia,South Africa,"Old Trafford, Manchester",Australia,South Africa,0.849,0.151,0.849,HIGH
+4,Jun 13,B,West Indies,New Zealand,"Rose Bowl, Southampton",New Zealand,West Indies,0.101,0.899,0.899,HIGH
+5,Jun 14,A,Bangladesh,Netherlands,"Edgbaston, Birmingham",Bangladesh,Netherlands,0.796,0.204,0.796,HIGH
+6,Jun 14,A,India,Pakistan,"Edgbaston, Birmingham",India,Pakistan,0.902,0.098,0.902,HIGH
+7,Jun 16,B,New Zealand,Sri Lanka,"Rose Bowl, Southampton",New Zealand,Sri Lanka,0.891,0.109,0.891,HIGH
+8,Jun 16,B,England,Ireland,"Rose Bowl, Southampton",England,Ireland,0.929,0.071,0.929,HIGH
+9,Jun 17,A,Australia,Bangladesh,"Headingley, Leeds",Australia,Bangladesh,0.973,0.027,0.973,HIGH
+10,Jun 17,A,India,Netherlands,"Headingley, Leeds",India,Netherlands,0.576,0.424,0.576,LOW
+11,Jun 17,A,South Africa,Pakistan,"Edgbaston, Birmingham",Pakistan,South Africa,0.476,0.524,0.524,LOW
+12,Jun 18,B,West Indies,Scotland,"Headingley, Leeds",West Indies,Scotland,0.938,0.062,0.938,HIGH
+13,Jun 19,B,New Zealand,Ireland,"Rose Bowl, Southampton",New Zealand,Ireland,0.93,0.07,0.93,HIGH
+14,Jun 20,A,Australia,Netherlands,"Rose Bowl, Southampton",Australia,Netherlands,0.595,0.405,0.595,LOW
+15,Jun 20,A,Pakistan,Bangladesh,"Rose Bowl, Southampton",Bangladesh,Pakistan,0.376,0.624,0.624,MED
+16,Jun 20,B,England,Scotland,"Headingley, Leeds",England,Scotland,0.96,0.04,0.96,HIGH
+17,Jun 21,B,West Indies,Sri Lanka,"County Ground, Bristol",West Indies,Sri Lanka,0.699,0.301,0.699,MED
+18,Jun 21,A,South Africa,India,"Old Trafford, Manchester",South Africa,India,0.522,0.478,0.522,LOW
+19,Jun 23,B,New Zealand,Scotland,"County Ground, Bristol",New Zealand,Scotland,0.774,0.226,0.774,HIGH
+20,Jun 23,B,Sri Lanka,Ireland,"County Ground, Bristol",Sri Lanka,Ireland,0.694,0.306,0.694,MED
+21,Jun 23,A,Australia,Pakistan,"Headingley, Leeds",Australia,Pakistan,0.97,0.03,0.97,HIGH
+22,Jun 24,B,England,West Indies,"Lord's, London",England,West Indies,0.952,0.048,0.952,HIGH
+23,Jun 25,A,India,Bangladesh,"Old Trafford, Manchester",India,Bangladesh,0.861,0.139,0.861,HIGH
+24,Jun 25,A,South Africa,Netherlands,"County Ground, Bristol",South Africa,Netherlands,0.695,0.305,0.695,MED
+25,Jun 26,B,Sri Lanka,Scotland,"Old Trafford, Manchester",Sri Lanka,Scotland,0.933,0.067,0.933,HIGH
+26,Jun 27,A,Pakistan,Netherlands,"County Ground, Bristol",Pakistan,Netherlands,0.912,0.088,0.912,HIGH
+27,Jun 27,B,West Indies,Ireland,"County Ground, Bristol",West Indies,Ireland,0.8,0.2,0.8,HIGH
+28,Jun 27,B,England,New Zealand,"The Oval, London",England,New Zealand,0.902,0.098,0.902,HIGH
+29,Jun 28,A,South Africa,Bangladesh,"Lord's, London",South Africa,Bangladesh,0.931,0.069,0.931,HIGH
+30,Jun 28,A,Australia,India,"Lord's, London",Australia,India,0.83,0.17,0.83,HIGH

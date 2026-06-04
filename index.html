@@ -1,0 +1,895 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ICC Women's T20 World Cup 2026 — ML Predictions</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #0a0c10;
+  --bg2: #10131a;
+  --bg3: #171b24;
+  --border: rgba(255,255,255,0.08);
+  --border2: rgba(255,255,255,0.14);
+  --text: #f0f2f7;
+  --muted: #7a8094;
+  --accent: #c8ff00;
+  --accent2: #ff6b35;
+  --accent3: #4fc3f7;
+  --win: #4ade80;
+  --lose: #f87171;
+  --gold: #fbbf24;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;font-size:15px;line-height:1.6;overflow-x:hidden}
+
+/* NAV */
+nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(10,12,16,0.92);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);padding:0 clamp(1rem,5vw,3rem)}
+.nav-inner{max-width:1200px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;height:56px}
+.nav-logo{font-family:'Bebas Neue',sans-serif;font-size:22px;letter-spacing:2px;color:var(--accent);text-decoration:none}
+.nav-links{display:flex;gap:2rem;list-style:none}
+.nav-links a{color:var(--muted);text-decoration:none;font-size:13px;font-weight:500;letter-spacing:.5px;transition:color .2s}
+.nav-links a:hover{color:var(--text)}
+.hamburger{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:8px}
+.hamburger span{width:22px;height:2px;background:var(--text);border-radius:2px;transition:.3s}
+
+/* HERO */
+.hero{min-height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:80px 2rem 4rem;position:relative;overflow:hidden}
+.hero-bg{position:absolute;inset:0;background:radial-gradient(ellipse 80% 60% at 50% 0%,rgba(200,255,0,0.07) 0%,transparent 70%),radial-gradient(ellipse 60% 40% at 80% 80%,rgba(255,107,53,0.06) 0%,transparent 60%);pointer-events:none}
+.hero-grid{position:absolute;inset:0;background-image:linear-gradient(var(--border) 1px,transparent 1px),linear-gradient(90deg,var(--border) 1px,transparent 1px);background-size:60px 60px;opacity:.4;pointer-events:none}
+.hero-content{position:relative;max-width:800px}
+.hero-badge{display:inline-flex;align-items:center;gap:8px;background:rgba(200,255,0,0.1);border:1px solid rgba(200,255,0,0.3);border-radius:100px;padding:6px 16px;font-size:12px;font-weight:600;letter-spacing:1px;color:var(--accent);margin-bottom:2rem;text-transform:uppercase}
+.hero-badge::before{content:'';width:6px;height:6px;border-radius:50%;background:var(--accent);animation:pulse 2s infinite}
+@keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.5;transform:scale(.8)}}
+h1.hero-title{font-family:'Bebas Neue',sans-serif;font-size:clamp(3.5rem,10vw,8rem);line-height:.95;letter-spacing:2px;margin-bottom:1.5rem}
+.hero-title span{color:var(--accent)}
+.hero-sub{font-size:clamp(1rem,2vw,1.2rem);color:var(--muted);max-width:560px;margin:0 auto 2.5rem;font-weight:300}
+.hero-stats{display:flex;gap:2rem;justify-content:center;flex-wrap:wrap;margin-bottom:3rem}
+.hero-stat{text-align:center}
+.hero-stat-num{font-family:'Bebas Neue',sans-serif;font-size:3rem;color:var(--accent);line-height:1}
+.hero-stat-label{font-size:12px;color:var(--muted);letter-spacing:.5px;margin-top:4px}
+.cta-row{display:flex;gap:1rem;justify-content:center;flex-wrap:wrap}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:12px 28px;border-radius:8px;font-size:14px;font-weight:600;letter-spacing:.3px;cursor:pointer;transition:all .2s;text-decoration:none;border:none}
+.btn-primary{background:var(--accent);color:#000}
+.btn-primary:hover{background:#d4ff1a;transform:translateY(-1px)}
+.btn-outline{background:transparent;color:var(--text);border:1px solid var(--border2)}
+.btn-outline:hover{background:var(--bg3);border-color:var(--text)}
+
+/* SECTIONS */
+section{padding:5rem clamp(1rem,5vw,3rem);max-width:1200px;margin:0 auto}
+.section-label{font-size:11px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:var(--accent);margin-bottom:.75rem}
+.section-title{font-family:'Bebas Neue',sans-serif;font-size:clamp(2rem,5vw,3.5rem);letter-spacing:1px;margin-bottom:1rem}
+.section-sub{color:var(--muted);max-width:600px;margin-bottom:3rem}
+.divider{height:1px;background:var(--border);margin:0 clamp(1rem,5vw,3rem)}
+
+/* MODEL EXPLAINER */
+.pipeline-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1.5rem}
+.pipeline-card{background:var(--bg2);border:1px solid var(--border);border-radius:12px;padding:1.5rem;position:relative;overflow:hidden;transition:border-color .2s}
+.pipeline-card:hover{border-color:var(--border2)}
+.pipeline-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:var(--accent);transform:scaleX(0);transform-origin:left;transition:.3s}
+.pipeline-card:hover::before{transform:scaleX(1)}
+.pipeline-num{font-family:'Bebas Neue',sans-serif;font-size:2.5rem;color:rgba(200,255,0,0.2);line-height:1;margin-bottom:.75rem}
+.pipeline-card h3{font-size:15px;font-weight:600;margin-bottom:.5rem}
+.pipeline-card p{font-size:13px;color:var(--muted);line-height:1.6}
+.tag{display:inline-block;background:var(--bg3);border:1px solid var(--border);border-radius:6px;font-family:'DM Mono',monospace;font-size:11px;color:var(--accent3);padding:2px 8px;margin:3px 2px}
+
+/* FEATURE IMPORTANCE */
+.feat-bars{display:flex;flex-direction:column;gap:.6rem}
+.feat-row{display:grid;grid-template-columns:200px 1fr 50px;align-items:center;gap:1rem}
+.feat-name{font-family:'DM Mono',monospace;font-size:12px;color:var(--muted);text-align:right}
+.feat-bar-bg{height:20px;background:var(--bg3);border-radius:4px;overflow:hidden}
+.feat-bar-fill{height:100%;background:linear-gradient(90deg,var(--accent3),var(--accent));border-radius:4px;transition:width 1s cubic-bezier(.4,0,.2,1)}
+.feat-score{font-size:12px;color:var(--muted);font-family:'DM Mono',monospace}
+@media(max-width:600px){.feat-row{grid-template-columns:120px 1fr 40px}.feat-name{font-size:11px}}
+
+/* GROUPS */
+.groups-grid{display:grid;grid-template-columns:1fr 1fr;gap:2rem}
+@media(max-width:700px){.groups-grid{grid-template-columns:1fr}}
+.group-card{background:var(--bg2);border:1px solid var(--border);border-radius:12px;overflow:hidden}
+.group-header{padding:1rem 1.5rem;background:var(--bg3);border-bottom:1px solid var(--border);display:flex;align-items:center;gap:1rem}
+.group-label{font-family:'Bebas Neue',sans-serif;font-size:1.6rem;letter-spacing:1px}
+.group-label.a{color:var(--accent)}
+.group-label.b{color:var(--accent2)}
+.group-header p{font-size:12px;color:var(--muted)}
+.group-table{width:100%;border-collapse:collapse}
+.group-table th{font-size:11px;font-weight:600;letter-spacing:.5px;color:var(--muted);text-transform:uppercase;padding:.75rem 1.5rem;text-align:left;border-bottom:1px solid var(--border)}
+.group-table td{padding:.75rem 1.5rem;border-bottom:1px solid var(--border);font-size:14px}
+.group-table tr:last-child td{border-bottom:none}
+.group-table tr.qualifier td{color:var(--text)}
+.group-table tr:not(.qualifier) td{color:var(--muted)}
+.pts-badge{display:inline-block;background:var(--bg3);border:1px solid var(--border);border-radius:6px;padding:2px 10px;font-size:12px;font-weight:600;font-family:'DM Mono',monospace}
+.qualify-badge{display:inline-block;font-size:10px;font-weight:700;letter-spacing:.5px;color:#000;background:var(--accent);border-radius:4px;padding:2px 7px;text-transform:uppercase}
+.rank-num{font-family:'Bebas Neue',sans-serif;font-size:1.2rem;color:var(--muted)}
+
+/* FLAG EMOJI */
+.flag{font-size:1.1em;margin-right:6px}
+
+/* MATCHES */
+.filter-bar{display:flex;gap:.75rem;flex-wrap:wrap;margin-bottom:2rem}
+.filter-btn{background:var(--bg2);border:1px solid var(--border);border-radius:8px;color:var(--muted);padding:6px 16px;font-size:13px;cursor:pointer;transition:all .2s;font-family:'DM Sans',sans-serif}
+.filter-btn.active{background:rgba(200,255,0,0.1);border-color:rgba(200,255,0,0.4);color:var(--accent)}
+.filter-btn:hover{border-color:var(--border2);color:var(--text)}
+.matches-grid{display:grid;gap:1rem}
+.match-card{background:var(--bg2);border:1px solid var(--border);border-radius:10px;padding:1.25rem 1.5rem;display:grid;grid-template-columns:auto 1fr auto;gap:1rem;align-items:center;transition:border-color .2s}
+.match-card:hover{border-color:var(--border2)}
+.match-meta{text-align:center}
+.match-num{font-family:'Bebas Neue',sans-serif;font-size:1.3rem;color:var(--muted)}
+.match-date{font-size:11px;color:var(--muted)}
+.match-grp{font-size:10px;font-weight:700;letter-spacing:.5px;color:var(--accent);background:rgba(200,255,0,0.1);border-radius:4px;padding:1px 6px;margin-top:3px;display:inline-block}
+.match-teams{flex:1}
+.match-venue{font-size:11px;color:var(--muted);margin-bottom:.5rem}
+.match-matchup{display:flex;align-items:center;gap:.75rem;flex-wrap:wrap}
+.team-name{font-size:14px;font-weight:600}
+.team-name.winner{color:var(--win)}
+.team-name.loser{color:var(--muted)}
+.vs{font-size:11px;color:var(--muted);font-weight:600}
+.prob-bars{display:flex;flex-direction:column;gap:4px;min-width:160px}
+.prob-row{display:flex;align-items:center;gap:8px}
+.prob-team{font-size:11px;width:90px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.prob-team.w{color:var(--win)}
+.prob-team.l{color:var(--muted)}
+.prob-bar-bg{flex:1;height:6px;background:var(--bg3);border-radius:3px;overflow:hidden}
+.prob-bar-fill{height:100%;border-radius:3px}
+.prob-bar-fill.w{background:var(--win)}
+.prob-bar-fill.l{background:var(--muted);opacity:.4}
+.prob-pct{font-size:11px;font-family:'DM Mono',monospace;min-width:38px;text-align:right}
+.prob-pct.w{color:var(--win)}
+.prob-pct.l{color:var(--muted)}
+.conf-badge{font-size:10px;font-weight:700;letter-spacing:.5px;padding:2px 8px;border-radius:4px;text-transform:uppercase;display:inline-block;margin-top:.5rem}
+.conf-HIGH{background:rgba(74,222,128,0.12);color:var(--win);border:1px solid rgba(74,222,128,0.25)}
+.conf-MED{background:rgba(251,191,36,0.12);color:var(--gold);border:1px solid rgba(251,191,36,0.25)}
+.conf-LOW{background:rgba(248,113,113,0.12);color:var(--lose);border:1px solid rgba(248,113,113,0.25)}
+@media(max-width:640px){.match-card{grid-template-columns:auto 1fr}.prob-bars{display:none}}
+
+/* BRACKET */
+.bracket{overflow-x:auto;padding-bottom:1rem}
+.bracket-inner{min-width:700px;display:grid;grid-template-columns:1fr 80px 1fr 80px 1fr;gap:0;align-items:center}
+.bracket-col{display:flex;flex-direction:column;gap:1.5rem;justify-content:center}
+.bracket-match{background:var(--bg2);border:1px solid var(--border);border-radius:10px;overflow:hidden}
+.bracket-match-title{font-size:10px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:var(--muted);padding:.5rem 1rem;background:var(--bg3);border-bottom:1px solid var(--border)}
+.bracket-team{display:flex;justify-content:space-between;align-items:center;padding:.6rem 1rem;border-bottom:1px solid var(--border)}
+.bracket-team:last-child{border-bottom:none}
+.bracket-team.winner-team{background:rgba(200,255,0,0.05)}
+.bracket-team-name{font-size:13px;font-weight:500}
+.bracket-team-name.w{color:var(--accent)}
+.bracket-team-prob{font-size:12px;font-family:'DM Mono',monospace;color:var(--muted)}
+.bracket-team-prob.w{color:var(--accent)}
+.bracket-arrow{display:flex;flex-direction:column;align-items:center;gap:6px;color:var(--border2);font-size:18px}
+.bracket-arrow svg{width:24px;height:24px;stroke:var(--border2);fill:none}
+.champion-box{background:linear-gradient(135deg,rgba(200,255,0,0.12),rgba(255,107,53,0.08));border:2px solid rgba(200,255,0,0.4);border-radius:12px;padding:1.5rem;text-align:center}
+.champion-label{font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--accent);margin-bottom:.5rem}
+.champion-team{font-family:'Bebas Neue',sans-serif;font-size:2.5rem;letter-spacing:1px;color:var(--accent);line-height:1}
+.champion-date{font-size:12px;color:var(--muted);margin-top:.25rem}
+.champion-prob{font-size:18px;font-family:'DM Mono',monospace;color:var(--gold);margin-top:.5rem}
+
+/* H2H MATRIX */
+.matrix-wrap{overflow-x:auto}
+.matrix-table{border-collapse:collapse;font-size:11px;white-space:nowrap}
+.matrix-table th{background:var(--bg3);border:1px solid var(--border);padding:6px 10px;font-weight:600;letter-spacing:.3px;color:var(--muted)}
+.matrix-table td{border:1px solid var(--border);padding:6px 10px;text-align:center;font-family:'DM Mono',monospace;transition:background .2s}
+.cell-high{background:rgba(74,222,128,0.18);color:#86efac}
+.cell-mid{background:rgba(251,191,36,0.12);color:#fde68a}
+.cell-low{background:rgba(248,113,113,0.14);color:#fca5a5}
+.cell-self{background:var(--bg3);color:var(--muted)}
+
+/* ACCURACY SECTION */
+.val-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:2rem}
+.val-card{background:var(--bg2);border:1px solid var(--border);border-radius:12px;padding:1.75rem}
+.val-title{font-size:13px;font-weight:600;color:var(--muted);margin-bottom:.25rem}
+.val-event{font-family:'Bebas Neue',sans-serif;font-size:1.8rem;letter-spacing:1px;margin-bottom:1.25rem}
+.val-metrics{display:flex;gap:1.5rem;flex-wrap:wrap;margin-bottom:1.5rem}
+.val-metric{text-align:center}
+.val-metric-num{font-family:'Bebas Neue',sans-serif;font-size:2rem;line-height:1}
+.val-metric-label{font-size:11px;color:var(--muted);margin-top:2px}
+.val-results{display:flex;flex-wrap:wrap;gap:5px}
+.result-dot{width:10px;height:10px;border-radius:50%}
+.result-dot.correct{background:var(--win)}
+.result-dot.wrong{background:var(--lose)}
+
+/* ELO CHART */
+.elo-bars{display:grid;gap:.6rem}
+.elo-row{display:grid;grid-template-columns:130px 1fr 70px;align-items:center;gap:1rem}
+.elo-team{font-size:13px;font-weight:500;text-align:right}
+.elo-bar-bg{height:24px;background:var(--bg3);border-radius:6px;overflow:hidden;position:relative}
+.elo-bar-fill{height:100%;border-radius:6px;display:flex;align-items:center;padding-left:10px;font-size:11px;font-weight:600;color:#000;font-family:'DM Mono',monospace;transition:width 1.2s cubic-bezier(.4,0,.2,1)}
+.elo-rating{font-family:'DM Mono',monospace;font-size:12px;color:var(--muted)}
+@media(max-width:580px){.elo-row{grid-template-columns:90px 1fr 55px}.elo-team{font-size:12px}}
+
+/* TEAM RADAR */
+.radar-section{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:2rem}
+.radar-card{background:var(--bg2);border:1px solid var(--border);border-radius:12px;padding:1.5rem}
+.radar-title{font-size:14px;font-weight:600;margin-bottom:1rem;display:flex;align-items:center;gap:.5rem}
+.radar-title span{color:var(--accent)}
+canvas.radar{max-width:100%;aspect-ratio:1}
+
+/* FOOTER */
+footer{background:var(--bg2);border-top:1px solid var(--border);padding:3rem clamp(1rem,5vw,3rem);margin-top:4rem}
+.footer-inner{max-width:1200px;margin:0 auto;display:grid;grid-template-columns:1fr auto;gap:2rem;align-items:start}
+.footer-brand{font-family:'Bebas Neue',sans-serif;font-size:1.5rem;letter-spacing:2px;color:var(--accent);margin-bottom:.5rem}
+.footer-desc{font-size:13px;color:var(--muted);max-width:400px;line-height:1.6}
+.footer-links{display:flex;flex-direction:column;gap:.5rem;text-align:right}
+.footer-links a{font-size:13px;color:var(--muted);text-decoration:none;transition:color .2s}
+.footer-links a:hover{color:var(--accent)}
+.footer-copy{font-size:12px;color:var(--muted);margin-top:2rem;padding-top:1.5rem;border-top:1px solid var(--border);text-align:center}
+@media(max-width:580px){.footer-inner{grid-template-columns:1fr}.footer-links{text-align:left}}
+
+/* MOBILE NAV */
+@media(max-width:768px){
+  .nav-links{display:none;position:fixed;top:56px;left:0;right:0;background:var(--bg);flex-direction:column;padding:1.5rem;gap:1.5rem;border-bottom:1px solid var(--border)}
+  .nav-links.open{display:flex}
+  .hamburger{display:flex}
+  .groups-grid{grid-template-columns:1fr}
+  .bracket-inner{grid-template-columns:1fr 40px 1fr 40px 1fr}
+}
+
+/* SCROLL ANIMATION */
+.reveal{opacity:0;transform:translateY(20px);transition:opacity .6s ease,transform .6s ease}
+.reveal.visible{opacity:1;transform:none}
+
+/* GITHUB BANNER */
+.gh-banner{background:var(--bg3);border-top:1px solid var(--border);border-bottom:1px solid var(--border);padding:.75rem clamp(1rem,5vw,3rem);display:flex;align-items:center;justify-content:center;gap:1rem;flex-wrap:wrap}
+.gh-banner p{font-size:13px;color:var(--muted)}
+.gh-link{display:inline-flex;align-items:center;gap:6px;color:var(--accent);font-size:13px;font-weight:600;text-decoration:none}
+.gh-link:hover{text-decoration:underline}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-inner">
+    <a href="#" class="nav-logo">WC26 · ML</a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#model">Model</a></li>
+      <li><a href="#accuracy">Accuracy</a></li>
+      <li><a href="#groups">Groups</a></li>
+      <li><a href="#matches">Matches</a></li>
+      <li><a href="#bracket">Bracket</a></li>
+      <li><a href="#teams">Teams</a></li>
+      <li><a href="#h2h">H2H</a></li>
+    </ul>
+    <div class="hamburger" onclick="toggleNav()">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+</nav>
+
+<!-- GITHUB BANNER -->
+<div class="gh-banner" style="margin-top:56px">
+  <p>Full source code available on GitHub — model training, feature engineering & prediction scripts</p>
+  <a href="https://github.com" class="gh-link" id="ghLink">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+    View on GitHub
+  </a>
+</div>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-grid"></div>
+  <div class="hero-content reveal">
+    <div class="hero-badge">Machine Learning Predictions</div>
+    <h1 class="hero-title">ICC Women's<br>T20 World Cup<br><span>2026</span></h1>
+    <p class="hero-sub">LightGBM model trained on 690 matches across 104 venues. 63 features. 93.5% validation accuracy on past World Cups.</p>
+    <div class="hero-stats">
+      <div class="hero-stat">
+        <div class="hero-stat-num">93.5%</div>
+        <div class="hero-stat-label">Validation Accuracy</div>
+      </div>
+      <div class="hero-stat">
+        <div class="hero-stat-num">690</div>
+        <div class="hero-stat-label">Training Matches</div>
+      </div>
+      <div class="hero-stat">
+        <div class="hero-stat-num">63</div>
+        <div class="hero-stat-label">Features</div>
+      </div>
+      <div class="hero-stat">
+        <div class="hero-stat-num">30</div>
+        <div class="hero-stat-label">Matches Predicted</div>
+      </div>
+    </div>
+    <div class="cta-row">
+      <a href="#matches" class="btn btn-primary">View Predictions ↓</a>
+      <a href="#model" class="btn btn-outline">How It Works</a>
+    </div>
+  </div>
+</div>
+
+<div class="divider"></div>
+
+<!-- MODEL EXPLAINER -->
+<section id="model">
+  <div class="section-label reveal">The Model</div>
+  <div class="section-title reveal">How predictions<br>are made</div>
+  <p class="section-sub reveal">A LightGBM classifier trained on 690 international T20 matches, using a layered feature group approach to prevent overfitting.</p>
+
+  <div class="pipeline-grid reveal">
+    <div class="pipeline-card">
+      <div class="pipeline-num">01</div>
+      <h3>Data Collection</h3>
+      <p>690 international women's T20 matches across 104 venues. Match outcomes, toss results, and venue statistics all captured.</p>
+    </div>
+    <div class="pipeline-card">
+      <div class="pipeline-num">02</div>
+      <h3>Feature Engineering</h3>
+      <p>63 features across 5 groups: team strength, venue fit, phase-by-phase batting/bowling, matchup history, and toss advantage.</p>
+      <div style="margin-top:.75rem">
+        <span class="tag">ELO ratings</span>
+        <span class="tag">H2H records</span>
+        <span class="tag">Venue DNA</span>
+        <span class="tag">Phase splits</span>
+        <span class="tag">Spin/pace fit</span>
+      </div>
+    </div>
+    <div class="pipeline-card">
+      <div class="pipeline-num">03</div>
+      <h3>Group Layering</h3>
+      <p>Feature groups added one at a time. A group is only kept if it reduces log-loss on the validation set — no data leakage.</p>
+    </div>
+    <div class="pipeline-card">
+      <div class="pipeline-num">04</div>
+      <h3>Validation</h3>
+      <p>Held out the entire 2022 WC (South Africa) and 2024 WC (Bangladesh) as test sets — never seen during training or tuning.</p>
+      <div style="margin-top:.75rem">
+        <span class="tag">2022: 91.3%</span>
+        <span class="tag">2024: 95.7%</span>
+      </div>
+    </div>
+    <div class="pipeline-card">
+      <div class="pipeline-num">05</div>
+      <h3>LightGBM</h3>
+      <p>Gradient boosted trees with early stopping, L1+L2 regularisation, and shallow depth (15 leaves) to prevent overfitting on 644 rows.</p>
+    </div>
+    <div class="pipeline-card">
+      <div class="pipeline-num">06</div>
+      <h3>Prediction</h3>
+      <p>For each 2026 match, features are computed using real venue data. The model outputs win probability for both teams.</p>
+    </div>
+  </div>
+
+  <!-- Feature importance -->
+  <div style="margin-top:4rem">
+    <p class="section-label reveal">Feature Importance</p>
+    <h2 style="font-family:'Bebas Neue',sans-serif;font-size:2rem;letter-spacing:1px;margin-bottom:.5rem" class="reveal">What drives predictions</h2>
+    <p style="color:var(--muted);margin-bottom:2rem;font-size:14px" class="reveal">Top 20 features by LightGBM split importance. Head-to-head record and venue chase win rate are the strongest signals.</p>
+    <div class="feat-bars reveal" id="featBars"></div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ACCURACY -->
+<section id="accuracy">
+  <div class="section-label reveal">Validation Results</div>
+  <div class="section-title reveal">43 of 46<br>correct</div>
+  <p class="section-sub reveal">The model was tested on two complete past World Cups it had never seen during training. Each dot below represents one match.</p>
+
+  <div class="val-grid reveal">
+    <div class="val-card">
+      <div class="val-title">ICC Women's T20 World Cup</div>
+      <div class="val-event">2022 — South Africa</div>
+      <div class="val-metrics">
+        <div class="val-metric">
+          <div class="val-metric-num" style="color:var(--win)">91.3%</div>
+          <div class="val-metric-label">Accuracy</div>
+        </div>
+        <div class="val-metric">
+          <div class="val-metric-num" style="color:var(--text)">21/23</div>
+          <div class="val-metric-label">Correct</div>
+        </div>
+        <div class="val-metric">
+          <div class="val-metric-num" style="color:var(--lose)">2</div>
+          <div class="val-metric-label">Wrong</div>
+        </div>
+        <div class="val-metric">
+          <div class="val-metric-num" style="color:var(--muted)">0.376</div>
+          <div class="val-metric-label">Log-Loss</div>
+        </div>
+      </div>
+      <div class="val-results" id="val2022"></div>
+      <p style="font-size:12px;color:var(--muted);margin-top:.75rem">Missed: Sri Lanka beat South Africa (opener upset); South Africa beat England (semi)</p>
+    </div>
+    <div class="val-card">
+      <div class="val-title">ICC Women's T20 World Cup</div>
+      <div class="val-event">2024 — Bangladesh</div>
+      <div class="val-metrics">
+        <div class="val-metric">
+          <div class="val-metric-num" style="color:var(--win)">95.7%</div>
+          <div class="val-metric-label">Accuracy</div>
+        </div>
+        <div class="val-metric">
+          <div class="val-metric-num" style="color:var(--text)">22/23</div>
+          <div class="val-metric-label">Correct</div>
+        </div>
+        <div class="val-metric">
+          <div class="val-metric-num" style="color:var(--lose)">1</div>
+          <div class="val-metric-label">Wrong</div>
+        </div>
+        <div class="val-metric">
+          <div class="val-metric-num" style="color:var(--muted)">0.214</div>
+          <div class="val-metric-label">Log-Loss</div>
+        </div>
+      </div>
+      <div class="val-results" id="val2024"></div>
+      <p style="font-size:12px;color:var(--muted);margin-top:.75rem">Only miss: South Africa beat Australia in group stage (52% Australia predicted)</p>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- GROUPS -->
+<section id="groups">
+  <div class="section-label reveal">Group Stage</div>
+  <div class="section-title reveal">Predicted<br>standings</div>
+  <p class="section-sub reveal">Australia and England predicted to top their groups and advance to the semi-finals.</p>
+
+  <div class="groups-grid reveal">
+    <div class="group-card">
+      <div class="group-header">
+        <div class="group-label a">Group A</div>
+        <p>Edgbaston · Old Trafford · Headingley · Bristol · Lord's</p>
+      </div>
+      <table class="group-table">
+        <thead><tr><th>#</th><th>Team</th><th>Pts</th><th></th></tr></thead>
+        <tbody id="groupA"></tbody>
+      </table>
+    </div>
+    <div class="group-card">
+      <div class="group-header">
+        <div class="group-label b">Group B</div>
+        <p>Rose Bowl · Headingley · Bristol · Old Trafford · The Oval · Lord's</p>
+      </div>
+      <table class="group-table">
+        <thead><tr><th>#</th><th>Team</th><th>Pts</th><th></th></tr></thead>
+        <tbody id="groupB"></tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- MATCHES -->
+<section id="matches">
+  <div class="section-label reveal">All 30 Matches</div>
+  <div class="section-title reveal">Group stage<br>predictions</div>
+  <p class="section-sub reveal">Win probabilities for every group stage match. Filter by group or confidence level.</p>
+
+  <div class="filter-bar reveal">
+    <button class="filter-btn active" onclick="filterMatches('all',this)">All</button>
+    <button class="filter-btn" onclick="filterMatches('A',this)">Group A</button>
+    <button class="filter-btn" onclick="filterMatches('B',this)">Group B</button>
+    <button class="filter-btn" onclick="filterMatches('HIGH',this)">High Confidence</button>
+    <button class="filter-btn" onclick="filterMatches('MED',this)">Medium</button>
+    <button class="filter-btn" onclick="filterMatches('LOW',this)">Low / Close calls</button>
+  </div>
+  <div class="matches-grid reveal" id="matchesGrid"></div>
+</section>
+
+<div class="divider"></div>
+
+<!-- BRACKET -->
+<section id="bracket">
+  <div class="section-label reveal">Knockout Stage</div>
+  <div class="section-title reveal">Predicted<br>bracket</div>
+  <p class="section-sub reveal">Australia predicted champions at Lord's on July 5.</p>
+
+  <div class="bracket reveal">
+    <div class="bracket-inner">
+      <!-- Semis -->
+      <div class="bracket-col">
+        <div>
+          <p style="font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:var(--muted);margin-bottom:.75rem">Semi-Final 1 · Jun 30 · The Oval</p>
+          <div class="bracket-match">
+            <div class="bracket-match-title">Grp A Winner vs Grp B Runner-up</div>
+            <div class="bracket-team winner-team">
+              <span class="bracket-team-name w">Australia</span>
+              <span class="bracket-team-prob w">67.8%</span>
+            </div>
+            <div class="bracket-team">
+              <span class="bracket-team-name">New Zealand</span>
+              <span class="bracket-team-prob">32.2%</span>
+            </div>
+          </div>
+        </div>
+        <div>
+          <p style="font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:var(--muted);margin-bottom:.75rem">Semi-Final 2 · Jul 2 · The Oval</p>
+          <div class="bracket-match">
+            <div class="bracket-match-title">Grp B Winner vs Grp A Runner-up</div>
+            <div class="bracket-team winner-team">
+              <span class="bracket-team-name w">England</span>
+              <span class="bracket-team-prob w">87.5%</span>
+            </div>
+            <div class="bracket-team">
+              <span class="bracket-team-name">India</span>
+              <span class="bracket-team-prob">12.5%</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Arrow -->
+      <div class="bracket-arrow">
+        <svg viewBox="0 0 24 24" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </div>
+
+      <!-- Final -->
+      <div class="bracket-col" style="align-items:center">
+        <p style="font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:var(--muted);margin-bottom:.75rem;text-align:center">Final · Jul 5 · Lord's</p>
+        <div class="bracket-match" style="width:100%">
+          <div class="bracket-match-title">The Final</div>
+          <div class="bracket-team winner-team">
+            <span class="bracket-team-name w">Australia</span>
+            <span class="bracket-team-prob w">79.4%</span>
+          </div>
+          <div class="bracket-team">
+            <span class="bracket-team-name">England</span>
+            <span class="bracket-team-prob">20.6%</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Arrow -->
+      <div class="bracket-arrow">
+        <svg viewBox="0 0 24 24" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </div>
+
+      <!-- Champion -->
+      <div class="bracket-col" style="align-items:center">
+        <div class="champion-box">
+          <div class="champion-label">🏆 Predicted Champion</div>
+          <div class="champion-team">Australia</div>
+          <div class="champion-date">Lord's · Jul 5, 2026</div>
+          <div class="champion-prob">79.4% win prob</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- TEAMS / ELO -->
+<section id="teams">
+  <div class="section-label reveal">Team Ratings</div>
+  <div class="section-title reveal">ELO rankings</div>
+  <p class="section-sub reveal">ELO ratings computed from all historical results, weighted by recency and opposition strength. Australia lead by a significant margin.</p>
+
+  <div class="elo-bars reveal" id="eloBars"></div>
+
+  <div style="margin-top:4rem">
+    <p class="section-label reveal">Team Profiles</p>
+    <h2 style="font-family:'Bebas Neue',sans-serif;font-size:2rem;letter-spacing:1px;margin-bottom:.5rem" class="reveal">Batting & bowling breakdown</h2>
+    <p style="color:var(--muted);margin-bottom:2rem;font-size:14px" class="reveal">Select a team to see their phase-by-phase strengths. Scores normalised 0–1.</p>
+    <div style="margin-bottom:1.5rem" class="reveal">
+      <select id="teamSelect" style="background:var(--bg2);border:1px solid var(--border2);color:var(--text);border-radius:8px;padding:8px 14px;font-size:14px;font-family:'DM Sans',sans-serif;cursor:pointer">
+        <option>Australia</option><option>India</option><option>England</option>
+        <option>New Zealand</option><option>South Africa</option><option>West Indies</option>
+        <option>Pakistan</option><option>Sri Lanka</option><option>Bangladesh</option>
+        <option>Ireland</option><option>Scotland</option><option>Netherlands</option>
+      </select>
+    </div>
+    <div class="radar-section reveal" id="teamStats"></div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- H2H -->
+<section id="h2h">
+  <div class="section-label reveal">Head to Head</div>
+  <div class="section-title reveal">Historical<br>win rates</div>
+  <p class="section-sub reveal">All-time head-to-head win rates in international T20 cricket. Green = strong record, red = weak. Hover a cell to see details.</p>
+
+  <div class="matrix-wrap reveal">
+    <table class="matrix-table" id="h2hMatrix"></table>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div>
+      <div class="footer-brand">WC2026 · ML Predictor</div>
+      <p class="footer-desc">LightGBM model trained on 690 women's T20 international matches. Built for the ICC Women's T20 World Cup 2026 in England.</p>
+      <p style="font-size:12px;color:var(--muted);margin-top:.75rem">Model accuracy: 93.5% on 2022 + 2024 World Cups (43/46 correct)</p>
+    </div>
+    <div class="footer-links">
+      <a href="#model">Model Pipeline</a>
+      <a href="#accuracy">Validation</a>
+      <a href="#groups">Group Standings</a>
+      <a href="#matches">All Matches</a>
+      <a href="#bracket">Bracket</a>
+      <a href="#h2h">H2H Matrix</a>
+    </div>
+  </div>
+  <p class="footer-copy">Built with LightGBM · Python · Hosted on GitHub Pages · Predictions are probabilistic, not guarantees</p>
+</footer>
+
+<script>
+// ── DATA ────────────────────────────────────────────────────
+const FEATURES = [
+  {name:'h2h_all_time_a',score:130},
+  {name:'venue_chase_wr',score:121},
+  {name:'chase_venue_fit_b',score:98},
+  {name:'familiarity_diff',score:79},
+  {name:'venue_toss_importance',score:75},
+  {name:'venue_avg1st',score:69},
+  {name:'h2h_blended_a',score:65},
+  {name:'familiarity_b',score:62},
+  {name:'spin_venue_fit_b',score:60},
+  {name:'fast_venue_fit_b',score:47},
+  {name:'chase_venue_fit_a',score:47},
+  {name:'h2h_decay_a',score:46},
+  {name:'fast_venue_fit_a',score:35},
+  {name:'batting_first_is_a',score:34},
+  {name:'venue_bat_assist',score:31},
+  {name:'elo_diff',score:30},
+  {name:'matchup_a_bowls_b',score:28},
+  {name:'venue_reliability_n',score:28},
+  {name:'spin_venue_fit_a',score:27},
+  {name:'matchup_net_a',score:27},
+];
+
+const ELO = [
+  {team:'Australia',elo:1401.7},
+  {team:'England',elo:1306.7},
+  {team:'Ireland',elo:1240.4},
+  {team:'Netherlands',elo:1221.3},
+  {team:'India',elo:1218.1},
+  {team:'Scotland',elo:1195.1},
+  {team:'Sri Lanka',elo:1188.1},
+  {team:'New Zealand',elo:1184.0},
+  {team:'South Africa',elo:1168.8},
+  {team:'Bangladesh',elo:1050.9},
+  {team:'Pakistan',elo:1039.7},
+  {team:'West Indies',elo:1099.7},
+];
+
+const TEAM_STATS = {
+  'Australia':    {bat_pp:0.931,bat_mid:0.95,bat_death:0.95,bowl_pp:0.95,bowl_mid:0.852,bowl_death:0.95,chase_skill:0.95,defend_skill:0.95},
+  'India':        {bat_pp:0.888,bat_mid:0.702,bat_death:0.715,bowl_pp:0.537,bowl_mid:0.451,bowl_death:0.753,chase_skill:0.539,defend_skill:0.479},
+  'England':      {bat_pp:0.95,bat_mid:0.865,bat_death:0.858,bowl_pp:0.849,bowl_mid:0.95,bowl_death:0.909,chase_skill:0.895,defend_skill:0.947},
+  'New Zealand':  {bat_pp:0.718,bat_mid:0.556,bat_death:0.66,bowl_pp:0.69,bowl_mid:0.866,bowl_death:0.844,chase_skill:0.452,defend_skill:0.542},
+  'South Africa': {bat_pp:0.591,bat_mid:0.507,bat_death:0.725,bowl_pp:0.645,bowl_mid:0.171,bowl_death:0.193,chase_skill:0.527,defend_skill:0.165},
+  'West Indies':  {bat_pp:0.357,bat_mid:0.351,bat_death:0.148,bowl_pp:0.608,bowl_mid:0.864,bowl_death:0.662,chase_skill:0.362,defend_skill:0.25},
+  'Pakistan':     {bat_pp:0.087,bat_mid:0.133,bat_death:0.163,bowl_pp:0.745,bowl_mid:0.806,bowl_death:0.426,chase_skill:0.17,defend_skill:0.133},
+  'Sri Lanka':    {bat_pp:0.319,bat_mid:0.111,bat_death:0.171,bowl_pp:0.21,bowl_mid:0.577,bowl_death:0.363,chase_skill:0.353,defend_skill:0.05},
+  'Bangladesh':   {bat_pp:0.05,bat_mid:0.05,bat_death:0.055,bowl_pp:0.557,bowl_mid:0.535,bowl_death:0.439,chase_skill:0.063,defend_skill:0.156},
+  'Ireland':      {bat_pp:0.431,bat_mid:0.291,bat_death:0.239,bowl_pp:0.099,bowl_mid:0.05,bowl_death:0.05,chase_skill:0.316,defend_skill:0.262},
+  'Scotland':     {bat_pp:0.258,bat_mid:0.187,bat_death:0.05,bowl_pp:0.248,bowl_mid:0.063,bowl_death:0.051,chase_skill:0.243,defend_skill:0.201},
+  'Netherlands':  {bat_pp:0.179,bat_mid:0.168,bat_death:0.088,bowl_pp:0.05,bowl_mid:0.138,bowl_death:0.143,chase_skill:0.05,defend_skill:0.176},
+};
+
+const MATCHES = [
+  {match:1,date:'Jun 12',group:'B',team_a:'England',team_b:'Sri Lanka',venue:'Edgbaston',winner:'England',prob_a:0.687,prob_b:0.313,confidence:'MED'},
+  {match:2,date:'Jun 13',group:'A',team_a:'Scotland',team_b:'Ireland',venue:'Old Trafford',winner:'Ireland',prob_a:0.106,prob_b:0.894,confidence:'HIGH'},
+  {match:3,date:'Jun 13',group:'A',team_a:'Australia',team_b:'South Africa',venue:'Old Trafford',winner:'Australia',prob_a:0.849,prob_b:0.151,confidence:'HIGH'},
+  {match:4,date:'Jun 13',group:'B',team_a:'West Indies',team_b:'New Zealand',venue:'Rose Bowl',winner:'New Zealand',prob_a:0.101,prob_b:0.899,confidence:'HIGH'},
+  {match:5,date:'Jun 14',group:'A',team_a:'Bangladesh',team_b:'Netherlands',venue:'Edgbaston',winner:'Bangladesh',prob_a:0.796,prob_b:0.204,confidence:'HIGH'},
+  {match:6,date:'Jun 14',group:'A',team_a:'India',team_b:'Pakistan',venue:'Edgbaston',winner:'India',prob_a:0.902,prob_b:0.098,confidence:'HIGH'},
+  {match:7,date:'Jun 16',group:'B',team_a:'New Zealand',team_b:'Sri Lanka',venue:'Rose Bowl',winner:'New Zealand',prob_a:0.891,prob_b:0.109,confidence:'HIGH'},
+  {match:8,date:'Jun 16',group:'B',team_a:'England',team_b:'Ireland',venue:'Rose Bowl',winner:'England',prob_a:0.929,prob_b:0.071,confidence:'HIGH'},
+  {match:9,date:'Jun 17',group:'A',team_a:'Australia',team_b:'Bangladesh',venue:'Headingley',winner:'Australia',prob_a:0.973,prob_b:0.027,confidence:'HIGH'},
+  {match:10,date:'Jun 17',group:'A',team_a:'India',team_b:'Netherlands',venue:'Headingley',winner:'India',prob_a:0.576,prob_b:0.424,confidence:'LOW'},
+  {match:11,date:'Jun 17',group:'A',team_a:'South Africa',team_b:'Pakistan',venue:'Edgbaston',winner:'Pakistan',prob_a:0.476,prob_b:0.524,confidence:'LOW'},
+  {match:12,date:'Jun 18',group:'B',team_a:'West Indies',team_b:'Scotland',venue:'Headingley',winner:'West Indies',prob_a:0.938,prob_b:0.062,confidence:'HIGH'},
+  {match:13,date:'Jun 19',group:'B',team_a:'New Zealand',team_b:'Ireland',venue:'Rose Bowl',winner:'New Zealand',prob_a:0.93,prob_b:0.07,confidence:'HIGH'},
+  {match:14,date:'Jun 20',group:'A',team_a:'Australia',team_b:'Netherlands',venue:'Rose Bowl',winner:'Australia',prob_a:0.595,prob_b:0.405,confidence:'LOW'},
+  {match:15,date:'Jun 20',group:'A',team_a:'Pakistan',team_b:'Bangladesh',venue:'Rose Bowl',winner:'Bangladesh',prob_a:0.376,prob_b:0.624,confidence:'MED'},
+  {match:16,date:'Jun 20',group:'B',team_a:'England',team_b:'Scotland',venue:'Headingley',winner:'England',prob_a:0.96,prob_b:0.04,confidence:'HIGH'},
+  {match:17,date:'Jun 21',group:'B',team_a:'West Indies',team_b:'Sri Lanka',venue:'Bristol',winner:'West Indies',prob_a:0.699,prob_b:0.301,confidence:'MED'},
+  {match:18,date:'Jun 21',group:'A',team_a:'South Africa',team_b:'India',venue:'Old Trafford',winner:'South Africa',prob_a:0.522,prob_b:0.478,confidence:'LOW'},
+  {match:19,date:'Jun 23',group:'B',team_a:'New Zealand',team_b:'Scotland',venue:'Bristol',winner:'New Zealand',prob_a:0.774,prob_b:0.226,confidence:'HIGH'},
+  {match:20,date:'Jun 23',group:'B',team_a:'Sri Lanka',team_b:'Ireland',venue:'Bristol',winner:'Sri Lanka',prob_a:0.694,prob_b:0.306,confidence:'MED'},
+  {match:21,date:'Jun 23',group:'A',team_a:'Australia',team_b:'Pakistan',venue:'Headingley',winner:'Australia',prob_a:0.97,prob_b:0.03,confidence:'HIGH'},
+  {match:22,date:'Jun 24',group:'B',team_a:'England',team_b:'West Indies',venue:"Lord's",winner:'England',prob_a:0.952,prob_b:0.048,confidence:'HIGH'},
+  {match:23,date:'Jun 25',group:'A',team_a:'India',team_b:'Bangladesh',venue:'Old Trafford',winner:'India',prob_a:0.861,prob_b:0.139,confidence:'HIGH'},
+  {match:24,date:'Jun 25',group:'A',team_a:'South Africa',team_b:'Netherlands',venue:'Bristol',winner:'South Africa',prob_a:0.695,prob_b:0.305,confidence:'MED'},
+  {match:25,date:'Jun 26',group:'B',team_a:'Sri Lanka',team_b:'Scotland',venue:'Old Trafford',winner:'Sri Lanka',prob_a:0.933,prob_b:0.067,confidence:'HIGH'},
+  {match:26,date:'Jun 27',group:'A',team_a:'Pakistan',team_b:'Netherlands',venue:'Bristol',winner:'Pakistan',prob_a:0.912,prob_b:0.088,confidence:'HIGH'},
+  {match:27,date:'Jun 27',group:'B',team_a:'West Indies',team_b:'Ireland',venue:'Bristol',winner:'West Indies',prob_a:0.8,prob_b:0.2,confidence:'HIGH'},
+  {match:28,date:'Jun 27',group:'B',team_a:'England',team_b:'New Zealand',venue:'The Oval',winner:'England',prob_a:0.902,prob_b:0.098,confidence:'HIGH'},
+  {match:29,date:'Jun 28',group:'A',team_a:'South Africa',team_b:'Bangladesh',venue:"Lord's",winner:'South Africa',prob_a:0.931,prob_b:0.069,confidence:'HIGH'},
+  {match:30,date:'Jun 28',group:'A',team_a:'Australia',team_b:'India',venue:"Lord's",winner:'Australia',prob_a:0.83,prob_b:0.17,confidence:'HIGH'},
+];
+
+const GROUP_A = {Australia:10,India:6,'South Africa':6,Pakistan:4,Bangladesh:4,Netherlands:0};
+const GROUP_B = {England:10,'New Zealand':8,'West Indies':6,'Sri Lanka':4,Ireland:0,Scotland:0};
+
+const H2H = {
+  teams:['Australia','India','England','New Zealand','South Africa','West Indies','Pakistan','Sri Lanka','Bangladesh'],
+  data:[
+    [0.5,0.75,0.594,0.769,0.75,0.867,1.0,1.0,1.0],
+    [0.25,0.5,0.303,0.25,0.5,0.846,0.769,0.85,0.812],
+    [0.406,0.697,0.5,0.857,0.842,0.84,0.941,0.75,1.0],
+    [0.231,0.75,0.143,0.5,0.737,0.75,0.8,0.833,1.0],
+    [0.25,0.5,0.158,0.263,0.5,0.5,0.478,0.625,0.889],
+    [0.133,0.154,0.16,0.25,0.5,0.5,0.8,0.667,1.0],
+    [0.0,0.231,0.059,0.2,0.522,0.2,0.5,0.643,0.667],
+    [0.0,0.15,0.25,0.167,0.375,0.333,0.357,0.5,0.733],
+    [0.0,0.188,0.0,0.0,0.111,0.0,0.333,0.267,0.5],
+  ]
+};
+
+const FLAGS = {
+  'Australia':'🇦🇺','India':'🇮🇳','England':'🏴󠁧󠁢󠁥󠁮󠁧󠁿','New Zealand':'🇳🇿',
+  'South Africa':'🇿🇦','West Indies':'🏳','Pakistan':'🇵🇰','Sri Lanka':'🇱🇰',
+  'Bangladesh':'🇧🇩','Ireland':'🇮🇪','Scotland':'🏴󠁧󠁢󠁳󠁣󠁴󠁿','Netherlands':'🇳🇱'
+};
+
+// ── RENDER FEATURE BARS ──────────────────────────────────────
+function renderFeats(){
+  const el = document.getElementById('featBars');
+  const max = FEATURES[0].score;
+  el.innerHTML = FEATURES.map(f => `
+    <div class="feat-row">
+      <span class="feat-name">${f.name}</span>
+      <div class="feat-bar-bg"><div class="feat-bar-fill" style="width:${(f.score/max*100).toFixed(1)}%"></div></div>
+      <span class="feat-score">${f.score}</span>
+    </div>`).join('');
+}
+
+// ── RENDER VALIDATION DOTS ───────────────────────────────────
+const val22 = [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1];
+const val24 = [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1];
+function renderDots(arr,id){
+  document.getElementById(id).innerHTML = arr.map(c =>
+    `<div class="result-dot ${c?'correct':'wrong'}" title="${c?'Correct':'Wrong'}"></div>`).join('');
+}
+
+// ── RENDER GROUPS ────────────────────────────────────────────
+function renderGroup(data, elId, qualifier_count=2){
+  const sorted = Object.entries(data).sort((a,b)=>b[1]-a[1]);
+  document.getElementById(elId).innerHTML = sorted.map(([team,pts],i) => `
+    <tr class="${i<qualifier_count?'qualifier':''}">
+      <td><span class="rank-num">${i+1}</span></td>
+      <td>${FLAGS[team]||''} ${team}</td>
+      <td><span class="pts-badge">${pts}</span></td>
+      <td>${i<qualifier_count?'<span class="qualify-badge">Qualifies</span>':''}</td>
+    </tr>`).join('');
+}
+
+// ── RENDER MATCHES ───────────────────────────────────────────
+let activeFilter = 'all';
+function renderMatches(filter='all'){
+  activeFilter = filter;
+  const filtered = MATCHES.filter(m => {
+    if(filter==='A'||filter==='B') return m.group===filter;
+    if(filter==='HIGH'||filter==='MED'||filter==='LOW') return m.confidence===filter;
+    return true;
+  });
+  document.getElementById('matchesGrid').innerHTML = filtered.map(m => {
+    const wa = m.winner===m.team_a, pa=m.prob_a, pb=m.prob_b;
+    return `<div class="match-card">
+      <div class="match-meta">
+        <div class="match-num">M${String(m.match).padStart(2,'0')}</div>
+        <div class="match-date">${m.date}</div>
+        <div class="match-grp">GRP ${m.group}</div>
+      </div>
+      <div class="match-teams">
+        <div class="match-venue">📍 ${m.venue}</div>
+        <div class="match-matchup">
+          <span class="team-name ${wa?'winner':'loser'}">${FLAGS[m.team_a]||''} ${m.team_a}</span>
+          <span class="vs">vs</span>
+          <span class="team-name ${!wa?'winner':'loser'}">${FLAGS[m.team_b]||''} ${m.team_b}</span>
+        </div>
+        <span class="conf-badge conf-${m.confidence}">${m.confidence} confidence</span>
+      </div>
+      <div class="prob-bars">
+        <div class="prob-row">
+          <span class="prob-team ${wa?'w':'l'}">${m.team_a}</span>
+          <div class="prob-bar-bg"><div class="prob-bar-fill ${wa?'w':'l'}" style="width:${(pa*100).toFixed(0)}%"></div></div>
+          <span class="prob-pct ${wa?'w':'l'}">${(pa*100).toFixed(1)}%</span>
+        </div>
+        <div class="prob-row">
+          <span class="prob-team ${!wa?'w':'l'}">${m.team_b}</span>
+          <div class="prob-bar-bg"><div class="prob-bar-fill ${!wa?'w':'l'}" style="width:${(pb*100).toFixed(0)}%"></div></div>
+          <span class="prob-pct ${!wa?'w':'l'}">${(pb*100).toFixed(1)}%</span>
+        </div>
+      </div>
+    </div>`;
+  }).join('');
+}
+function filterMatches(f, btn){
+  document.querySelectorAll('.filter-btn').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  renderMatches(f);
+}
+
+// ── RENDER ELO BARS ──────────────────────────────────────────
+function renderElo(){
+  const sorted = [...ELO].sort((a,b)=>b.elo-a.elo);
+  const max = sorted[0].elo, min = 900;
+  const colors = ['#c8ff00','#9ef01a','#70e000','#52b788','#40916c','#2d6a4f','#1b4332','#74b3ce','#508ca4','#1a759f','#1e6091','#184e77'];
+  document.getElementById('eloBars').innerHTML = sorted.map((t,i)=>`
+    <div class="elo-row">
+      <span class="elo-team">${FLAGS[t.team]||''} ${t.team}</span>
+      <div class="elo-bar-bg">
+        <div class="elo-bar-fill" style="width:${((t.elo-min)/(max-min)*95+5).toFixed(1)}%;background:${colors[i]}">
+          ${t.elo > 1100 ? t.elo.toFixed(0) : ''}
+        </div>
+      </div>
+      <span class="elo-rating">${t.elo.toFixed(0)}</span>
+    </div>`).join('');
+}
+
+// ── RENDER TEAM STATS ────────────────────────────────────────
+function renderTeamStats(teamName){
+  const s = TEAM_STATS[teamName];
+  if(!s){document.getElementById('teamStats').innerHTML='';return;}
+  const bar = (v,label,color='#c8ff00') => `
+    <div style="display:flex;align-items:center;gap:10px;margin-bottom:8px">
+      <span style="font-size:12px;color:var(--muted);min-width:110px;text-align:right">${label}</span>
+      <div style="flex:1;height:16px;background:var(--bg3);border-radius:4px;overflow:hidden">
+        <div style="width:${(v*100).toFixed(0)}%;height:100%;background:${color};border-radius:4px;transition:width .8s"></div>
+      </div>
+      <span style="font-size:11px;font-family:'DM Mono',monospace;color:var(--muted);min-width:36px">${(v*100).toFixed(0)}%</span>
+    </div>`;
+  document.getElementById('teamStats').innerHTML = `
+    <div class="radar-card">
+      <div class="radar-title">🏏 Batting <span>${teamName}</span></div>
+      ${bar(s.bat_pp,'Powerplay','#4fc3f7')}
+      ${bar(s.bat_mid,'Middle overs','#81d4fa')}
+      ${bar(s.bat_death,'Death overs','#b3e5fc')}
+      ${bar(s.chase_skill,'Chase skill','#c8ff00')}
+    </div>
+    <div class="radar-card">
+      <div class="radar-title">🎯 Bowling <span>${teamName}</span></div>
+      ${bar(s.bowl_pp,'Powerplay','#ff6b35')}
+      ${bar(s.bowl_mid,'Middle overs','#ff8c61')}
+      ${bar(s.bowl_death,'Death overs','#ffb299')}
+      ${bar(s.defend_skill,'Defend skill','#fbbf24')}
+    </div>`;
+}
+
+// ── RENDER H2H MATRIX ────────────────────────────────────────
+function renderH2H(){
+  const {teams,data} = H2H;
+  let html = '<tr><th></th>' + teams.map(t=>`<th style="font-size:10px">${t.split(' ')[0]}</th>`).join('') + '</tr>';
+  data.forEach((row,i)=>{
+    html += `<tr><th style="text-align:left">${FLAGS[teams[i]]||''} ${teams[i]}</th>`;
+    row.forEach((v,j)=>{
+      if(i===j){html+=`<td class="cell-self">—</td>`;return;}
+      const cls = v>=0.65?'cell-high':v>=0.45?'cell-mid':'cell-low';
+      html+=`<td class="${cls}" title="${teams[i]} vs ${teams[j]}: ${(v*100).toFixed(0)}% win rate">${(v*100).toFixed(0)}%</td>`;
+    });
+    html+='</tr>';
+  });
+  document.getElementById('h2hMatrix').innerHTML = html;
+}
+
+// ── SCROLL REVEAL ────────────────────────────────────────────
+const obs = new IntersectionObserver(entries=>{
+  entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add('visible')});
+},{threshold:0.1});
+document.querySelectorAll('.reveal').forEach(el=>obs.observe(el));
+
+// ── NAV TOGGLE ───────────────────────────────────────────────
+function toggleNav(){document.getElementById('navLinks').classList.toggle('open')}
+document.querySelectorAll('#navLinks a').forEach(a=>a.addEventListener('click',()=>{
+  document.getElementById('navLinks').classList.remove('open');
+}));
+
+// ── TEAM SELECT ──────────────────────────────────────────────
+document.getElementById('teamSelect').addEventListener('change',e=>renderTeamStats(e.target.value));
+
+// ── INIT ─────────────────────────────────────────────────────
+renderFeats();
+renderDots(val22,'val2022');
+renderDots(val24,'val2024');
+renderGroup(GROUP_A,'groupA');
+renderGroup(GROUP_B,'groupB');
+renderMatches();
+renderElo();
+renderTeamStats('Australia');
+renderH2H();
+</script>
+</body>
+</html>

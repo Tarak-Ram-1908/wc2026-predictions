@@ -1,0 +1,13 @@
+team,n_matches,toss_win_rate,match_win_after_toss,match_win_lost_toss,toss_advantage,preferred_choice,preference_pct,preferred_choice_enc
+Australia,150,0.507,0.816,0.689,0.127,field,0.513,1
+India,159,0.447,0.521,0.511,0.01,field,0.549,1
+England,172,0.512,0.761,0.69,0.071,field,0.534,1
+New Zealand,128,0.586,0.52,0.509,0.011,field,0.507,1
+South Africa,148,0.52,0.494,0.394,0.099,field,0.636,1
+West Indies,134,0.485,0.477,0.391,0.086,field,0.569,1
+Pakistan,137,0.482,0.439,0.254,0.186,bat,0.621,0
+Sri Lanka,119,0.521,0.339,0.333,0.005,bat,0.581,0
+Bangladesh,98,0.48,0.34,0.255,0.086,bat,0.532,0
+Ireland,96,0.438,0.429,0.407,0.021,bat,0.571,0
+Scotland,46,0.37,0.235,0.414,-0.178,bat,0.529,0
+Netherlands,37,0.703,0.154,0.364,-0.21,field,0.615,1

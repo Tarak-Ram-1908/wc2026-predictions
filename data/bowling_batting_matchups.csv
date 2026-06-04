@@ -1,0 +1,11 @@
+matchup,advantage
+"('RA_pace', 'RHB')",0.05
+"('RA_pace', 'LHB')",-0.03
+"('LA_pace', 'RHB')",0.08
+"('LA_pace', 'LHB')",0.03
+"('RA_offbreak', 'RHB')",-0.06
+"('RA_offbreak', 'LHB')",0.1
+"('LA_orthodox', 'RHB')",0.08
+"('LA_orthodox', 'LHB')",-0.05
+"('RA_legbreak', 'RHB')",0.1
+"('RA_legbreak', 'LHB')",-0.05
