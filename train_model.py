@@ -22,23 +22,9 @@ warnings.filterwarnings('ignore')
 
 from cricket_data_loader import CricketData
 
-# ============================================================
-# STEP 1 — BUILD FEATURE MATRIX
-# ============================================================
-# Loop through every match in match_index.csv
-# For each match, call build_match_features() → one row
-# Stack all rows into a DataFrame
-
 def build_feature_matrix(cd, match_index_path='match_index.csv'):
-    """
-    Reads match_index.csv and builds one feature row per match.
-    Label: 1 if team1 (team_a perspective) won, 0 if team2 won.
-    Returns X (features), y (labels), meta (team names, dates, flags).
-    """
     print("Building feature matrix...")
     mi = pd.read_csv(match_index_path)
-
-    # Drop matches with no result (rain, ties, abandoned)
     mi = mi[mi['winner'].notna()].copy()
     mi = mi[mi['winner'].isin(mi['team1'].tolist() + mi['team2'].tolist())].copy()
     print(f"  Total matches after cleaning: {len(mi)}")
@@ -52,11 +38,7 @@ def build_feature_matrix(cd, match_index_path='match_index.csv'):
         team_b  = match['team2']
         venue   = match['venue']
         winner  = match['winner']
-
-        # Label: 1 = team_a (team1) won, 0 = team_b (team2) won
         label = 1 if winner == team_a else 0
-
-        # Get toss info if available
         toss_winner   = match.get('toss_winner', None)
         batting_first = match.get('bat_first', None)
 
@@ -68,7 +50,6 @@ def build_feature_matrix(cd, match_index_path='match_index.csv'):
             )
             feats['label'] = label
             rows.append(feats)
-
             meta_rows.append({
                 'match_id':    match.get('match_id', ''),
                 'team_a':      team_a,
@@ -87,26 +68,15 @@ def build_feature_matrix(cd, match_index_path='match_index.csv'):
     print(f"  Rows built: {len(rows)} | Skipped: {skipped}")
     df      = pd.DataFrame(rows)
     meta    = pd.DataFrame(meta_rows)
-
     feature_cols = [c for c in df.columns if c != 'label']
     X = df[feature_cols].astype(float)
     y = df['label'].astype(int)
-
     print(f"  Feature matrix shape: {X.shape}")
     print(f"  Label distribution: {y.value_counts().to_dict()}")
     return X, y, meta, feature_cols
 
 
-# ============================================================
-# STEP 2 — TRAIN / VALIDATE SPLIT
-# ============================================================
-# Training: all non-WC matches (644 matches)
-# Validation set 1: 2022 WC (23 matches) — SA hosted
-# Validation set 2: 2024 WC (23 matches) — Bangladesh hosted
-# We NEVER use validation data during training or tuning.
-
 def split_data(X, y, meta):
-    """Returns train, val_2022, val_2024 splits."""
     val_2022_mask = meta['is_val_2022'].values
     val_2024_mask = meta['is_val_2024'].values
     train_mask    = ~val_2022_mask & ~val_2024_mask
@@ -124,13 +94,6 @@ def split_data(X, y, meta):
     print(f"  Val 2024:   {len(X_v24)} matches")
     return (X_train,y_train,m_train), (X_v22,y_v22,m_v22), (X_v24,y_v24,m_v24)
 
-
-# ============================================================
-# STEP 3 — FEATURE GROUPS
-# ============================================================
-# We train 5 models, each adding one more group.
-# The group that reduces log-loss on validation → keep.
-# The group that increases log-loss → drop.
 
 FEATURE_GROUPS = {
     'G1_strength': [
@@ -171,18 +134,13 @@ FEATURE_GROUPS = {
     ],
 }
 
-
-# ============================================================
-# STEP 4 — LIGHTGBM TRAINING FUNCTION
-# ============================================================
-
 LGBM_PARAMS = {
     'objective':        'binary',
     'metric':           'binary_logloss',
     'boosting_type':    'gbdt',
     'n_estimators':     300,
     'learning_rate':    0.05,
-    'num_leaves':       15,        # Small — prevents overfitting on 644 rows
+    'num_leaves':       15,
     'min_child_samples':10,
     'feature_fraction': 0.8,
     'bagging_fraction': 0.8,
@@ -192,46 +150,26 @@ LGBM_PARAMS = {
     'verbose':          -1,
     'random_state':     42,
 }
-# Why these params?
-# num_leaves=15:      With only 644 training rows, deep trees overfit fast.
-#                     15 leaves means the tree is shallow and generalises better.
-# n_estimators=300:   With early stopping (below) this never fully runs anyway.
-# feature_fraction:   Each tree only sees 80% of features — reduces correlation between trees.
-# lambda_l1/l2:       L1+L2 regularisation — penalises large weights, prevents overfitting.
 
 
 def train_lgbm(X_train, y_train, X_val, y_val, feature_cols, label='model'):
-    """Train one LightGBM model with early stopping. Returns model + scores."""
     model = lgb.LGBMClassifier(**LGBM_PARAMS)
-
-    # Early stopping: stop if val loss doesn't improve for 30 rounds
     model.fit(
         X_train[feature_cols], y_train,
         eval_set=[(X_val[feature_cols], y_val)],
         callbacks=[lgb.early_stopping(30, verbose=False), lgb.log_evaluation(-1)]
     )
-
     probs  = model.predict_proba(X_val[feature_cols])[:, 1]
     preds  = (probs >= 0.5).astype(int)
     ll     = log_loss(y_val, probs)
     acc    = accuracy_score(y_val, preds)
-
     print(f"  [{label}] Features:{len(feature_cols):3d} | "
           f"Accuracy:{acc:.3f} ({int(acc*len(y_val))}/{len(y_val)}) | "
           f"LogLoss:{ll:.4f} | Trees:{model.n_estimators_}")
     return model, probs, ll, acc
 
 
-# ============================================================
-# STEP 5 — FEATURE GROUP LAYERING EXPERIMENT
-# ============================================================
-
 def run_group_experiment(X_train, y_train, X_v22, y_v22, X_v24, y_v24):
-    """
-    Train progressively — add one feature group at a time.
-    Keep group if it reduces log-loss on validation, drop if it doesn't.
-    Returns the best feature list and best model.
-    """
     print("\n" + "="*65)
     print("FEATURE GROUP LAYERING EXPERIMENT")
     print("="*65)
@@ -244,13 +182,10 @@ def run_group_experiment(X_train, y_train, X_v22, y_v22, X_v24, y_v24):
     results         = []
 
     for group_name, group_feats in FEATURE_GROUPS.items():
-        # Only use features that exist in X
         valid_feats = [f for f in group_feats if f in X_train.columns]
         candidate   = active_features + valid_feats
-
         print(f"Testing: {group_name} (+{len(valid_feats)} features → total {len(candidate)})")
 
-        # Combine val sets for a single layering decision
         X_val_combined = pd.concat([X_v22, X_v24])
         y_val_combined = pd.concat([y_v22, y_v24])
 
@@ -279,20 +214,14 @@ def run_group_experiment(X_train, y_train, X_v22, y_v22, X_v24, y_v24):
     return best_model, best_features, pd.DataFrame(results)
 
 
-# ============================================================
-# STEP 6 — FINAL EVALUATION ON BOTH VALIDATION SETS
-# ============================================================
-
 def evaluate_final(model, best_features, X_v22, y_v22, m_v22, X_v24, y_v24, m_v24):
-    """Evaluate best model on each WC separately. Print match-level predictions."""
-
     print("\n" + "="*65)
     print("FINAL EVALUATION")
     print("="*65)
 
     for label, X_val, y_val, meta_val in [
         ('2022 WC (South Africa)', X_v22, y_v22, m_v22),
-        ('2024 WC (Bangladesh)',   X_v24, y_v24, m_v24),
+        ('2024 WC (UAE)',          X_v24, y_v24, m_v24),   # ← FIXED: was Bangladesh
     ]:
         probs = model.predict_proba(X_val[best_features])[:, 1]
         preds = (probs >= 0.5).astype(int)
@@ -314,12 +243,7 @@ def evaluate_final(model, best_features, X_v22, y_v22, m_v22, X_v24, y_v24, m_v2
             print(f"  {match_str:<45} {pred_team:>10} {prob_a:>7.1%}   {actual:>10} {correct}")
 
 
-# ============================================================
-# STEP 7 — FEATURE IMPORTANCE
-# ============================================================
-
 def show_feature_importance(model, best_features, top_n=20):
-    """Print top N most important features."""
     print(f"\n{'='*65}")
     print(f"TOP {top_n} FEATURE IMPORTANCES")
     print(f"{'='*65}")
@@ -334,12 +258,7 @@ def show_feature_importance(model, best_features, top_n=20):
     return importance
 
 
-# ============================================================
-# STEP 8 — SAVE MODEL
-# ============================================================
-
 def save_model(model, best_features, path='wc2026_model.pkl'):
-    """Save model + feature list so you can load and predict later."""
     with open(path, 'wb') as f:
         pickle.dump({'model': model, 'features': best_features}, f)
     print(f"\n✅ Model saved to {path}")
@@ -347,24 +266,15 @@ def save_model(model, best_features, path='wc2026_model.pkl'):
     print(f"   Then: model=obj['model']; features=obj['features']")
 
 
-# ============================================================
-# MAIN — RUN EVERYTHING
-# ============================================================
-
 if __name__ == '__main__':
     print("ICC Women's T20 WC 2026 — Training Pipeline")
     print("="*65)
 
-    # Load data
     cd = CricketData()
 
-    # Step 1: Build feature matrix
     X, y, meta, feature_cols = build_feature_matrix(cd)
-
-    # Step 2: Split
     (X_train,y_train,m_train), (X_v22,y_v22,m_v22), (X_v24,y_v24,m_v24) = split_data(X, y, meta)
 
-    # Step 3: Feature group experiment
     best_model, best_features, group_results = run_group_experiment(
         X_train, y_train, X_v22, y_v22, X_v24, y_v24
     )
@@ -372,11 +282,6 @@ if __name__ == '__main__':
     print("\nGroup experiment summary:")
     print(group_results.to_string(index=False))
 
-    # Step 4: Final evaluation
     evaluate_final(best_model, best_features, X_v22, y_v22, m_v22, X_v24, y_v24, m_v24)
-
-    # Step 5: Feature importance
     show_feature_importance(best_model, best_features)
-
-    # Step 6: Save
     save_model(best_model, best_features)

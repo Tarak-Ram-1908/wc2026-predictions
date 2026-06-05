@@ -4,7 +4,7 @@ A machine learning model that predicts match outcomes for the ICC Women's T20 Wo
 
 **Model accuracy: 93.5% on held-out 2022 + 2024 World Cups (43/46 correct)**
 
-🌐 **[View the live prediction website →](https://YOUR-USERNAME.github.io/wc2026-predictions)**
+🌐 **[View the live prediction website →](https://tarak-ram-1908.github.io/wc2026-predictions)**
 
 ---
 
@@ -13,7 +13,7 @@ A machine learning model that predicts match outcomes for the ICC Women's T20 Wo
 | Tournament | Accuracy | Correct |
 |---|---|---|
 | 2022 WC (South Africa) | 91.3% | 21/23 |
-| 2024 WC (Bangladesh) | 95.7% | 22/23 |
+| 2024 WC (UAE) | 95.7% | 22/23 |
 | **Combined** | **93.5%** | **43/46** |
 
 **Predicted champion: 🏆 Australia** (79.4% win probability in the final vs England)
@@ -84,7 +84,7 @@ wc2026-predictions/
 ### Training / Validation Split
 - **Train**: 644 non-WC matches
 - **Val 2022**: 23 matches (2022 Women's T20 WC, South Africa) — held out entirely
-- **Val 2024**: 23 matches (2024 Women's T20 WC, Bangladesh) — held out entirely
+- **Val 2024**: 23 matches (2024 Women's T20 WC, UAE) — held out entirely
 
 No validation data was ever used during training or hyperparameter tuning.
 
@@ -154,12 +154,12 @@ The `index.html` is a self-contained single-page website — no build step neede
 1. Push this repository to GitHub
 2. Go to **Settings → Pages**
 3. Set source to **Deploy from a branch → main → / (root)**
-4. Your site will be live at `https://YOUR-USERNAME.github.io/REPO-NAME`
+4. Your site will be live at `https://tarak-ram-1908.github.io/wc2026-predictions`
 
 ### Updating the GitHub link in the website
 Edit `index.html` and update line with `id="ghLink"`:
 ```html
-<a href="https://github.com/YOUR-USERNAME/REPO-NAME" class="gh-link" id="ghLink">
+<a href="https://github.com/Tarak-Ram-1908/wc2026-predictions" class="gh-link" id="ghLink">
 ```
 
 ---
